@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+#mobile-menu{
+    height: calc(100vh - 5rem);
+}
+.rate input{
+    appearance: none;
+    width: 1.05rem;
+    height: 1.05rem;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    background-image: url("../img/index/star.png?v=1");
+    background-size: 1.05rem;
+}
+.rate input[disabled = "disabled"]{
+    background-image: url("../img/index/star.png?v=1") !important;
+    cursor: default;
+}
+.rate input:checked, .rate-checked{
+    background-image: url("../img/index/starActive.png") !important;
+    cursor: default;
+}
+.cope-promo-code{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid white;
+    align-self: center;
+}
+.cope-promo-code:after{
+    content: "";
+    display: block;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    width: inherit;
+    height: inherit;
+    position: relative;
+    top: -0.25rem;
+    right: -0.1rem;
+}
+/**Login page**/
+.form-group input::placeholder{
+    opacity: 0;
+}
+.form-group input:focus + label {
+    top: -1.5rem;
+}
+.form-group input:not(:placeholder-shown) + label {
+    top: -1.5rem;
+}
+.form-group input:not(:placeholder-shown):not(:focus) + label {
+    top: -1.5rem;
+}
+/**Admin panel**/
+input[name="payments[]"]:checked + label,  input[name="currencies[]"]:checked + label, input[name="sports[]"]:checked + label, input[name="supports[]"]:checked + label{
+    background-color: #5427ab !important;
+    color: #ffffff;
+}
+.payment-label:hover, .currency-label:hover, .sport-label:hover, .support-label:hover{
+    background-color: rgba(128, 128, 128, 0.67);
+    color: #ffffff;
+}
