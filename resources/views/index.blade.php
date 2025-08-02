@@ -7,7 +7,7 @@
 @section('keywords', trans('index.keywords'))
 
 @section('content')
-    <main>
+    <main class="font-serif">
         <div class="xl:px-20 sm:py-5 px-3 py-2 m-auto pt-24 sm:pt-24">
             <div class="relative">
                 <h1 class="text-lg sm:text-2xl pl-8 font-bold border-b-2 border-yellow-400">@lang('index.Bookmakers')</h1>

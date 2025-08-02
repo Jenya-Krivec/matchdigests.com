@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\Components;
 use App\Models\Bookmaker;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
@@ -22,6 +23,9 @@ class DashboardController extends Controller
             ->groupBy('bookmakers.id')
             ->orderBy('bookmakers.order', 'asc')
             ->get();
+        foreach ($bookmakers as $bookmaker) {
+            $bookmaker['isLight'] = Components::isColorLight($bookmaker['logo_color']);
+        }
         // Return the main page view with the bookmakers data
         return view('index', ['bookmakers' => $bookmakers]);
     }

@@ -21,18 +21,36 @@
     background-image: url("../img/index/starActive.png") !important;
     cursor: default;
 }
-.cope-promo-code{
+.cope-promo-code-white{
     display: block;
     width: 1rem;
     height: 1rem;
     border: 2px solid white;
     align-self: center;
 }
-.cope-promo-code:after{
+.cope-promo-code-white:after{
     content: "";
     display: block;
     border-top: 2px solid white;
     border-right: 2px solid white;
+    width: inherit;
+    height: inherit;
+    position: relative;
+    top: -0.25rem;
+    right: -0.1rem;
+}
+.cope-promo-code-black{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid black;
+    align-self: center;
+}
+.cope-promo-code-black:after{
+    content: "";
+    display: block;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
     width: inherit;
     height: inherit;
     position: relative;
