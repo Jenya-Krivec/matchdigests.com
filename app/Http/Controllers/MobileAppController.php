@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\Components;
 use App\Models\Bookmaker;
 use App\Models\MobileApp;
 use Illuminate\Http\Request;
@@ -11,12 +12,13 @@ class MobileAppController extends Controller
 {
     public function create(string $key) : View
     {
-        $bookmaker = Bookmaker::selectRaw('bookmakers.*, IF(COUNT(ratings.id) = 0, 0, ROUND(SUM(ratings.rating) / COUNT(ratings.id), 1)) as rating')
+        $bookmaker = Bookmaker::selectRaw('bookmakers.*, IF(COUNT(ratings.id) = 0, 0, ROUND(SUM(ratings.rating) / COUNT(ratings.id), 1)) as rating, COUNT(ratings.id) as rating_count')
             ->leftJoin('ratings', 'bookmakers.id', '=', 'ratings.bookmaker_id')
             ->where('bookmakers.key', '=', $key)
             ->groupBy('bookmakers.id')
             ->get()
             ->toArray()[0];
+        $bookmaker['isLight'] = Components::isColorLight($bookmaker['logo_color']);
 
         $page = MobileApp::select('mobile_apps.*')
             ->where('mobile_apps.bookmaker_id', '=', $bookmaker['id'])

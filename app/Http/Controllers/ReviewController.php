@@ -5,13 +5,14 @@ namespace App\Http\Controllers;
 use App\Models\Review;
 use Illuminate\Http\Request;
 use App\Models\Bookmaker;
+use App\Helpers\Components;
 use \Illuminate\View\View;
 
 class ReviewController extends Controller
 {
     public function create(string $key): View
     {
-        $bookmaker = Bookmaker::selectRaw('bookmakers.*, IF(COUNT(ratings.id) = 0, 0, ROUND(SUM(ratings.rating) / COUNT(ratings.id), 1)) as rating')
+        $bookmaker = Bookmaker::selectRaw('bookmakers.*, IF(COUNT(ratings.id) = 0, 0, ROUND(SUM(ratings.rating) / COUNT(ratings.id), 1)) as rating, COUNT(ratings.id) as rating_count')
             ->leftJoin('ratings', 'bookmakers.id', '=', 'ratings.bookmaker_id')
             ->where('key', '=', $key)
             ->groupBy('bookmakers.id')
@@ -22,6 +23,7 @@ class ReviewController extends Controller
         $bookmaker['sports'] = Bookmaker::find($bookmaker['id'])->sports()->get()->toArray();
         $bookmaker['restrictions'] = Bookmaker::find($bookmaker['id'])->restrictions()->get()->toArray();
         $bookmaker['supports'] = Bookmaker::find($bookmaker['id'])->supports()->get()->toArray();
+        $bookmaker['isLight'] = Components::isColorLight($bookmaker['logo_color']);
 
         $review = Review::select('reviews.*')
             ->where('bookmaker_id', '=', $bookmaker['id'])
