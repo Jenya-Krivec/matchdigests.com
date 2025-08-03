@@ -1,5 +1,5 @@
 <div class="flex flex-col justify-center items-center border-gray-200 border-2 rounded-xl shadow-gray-400 shadow-lg">
-    <div class="flex justify-end items-center bg-violet-500 w-full rounded-tr-xl rounded-tl-xl">
+    <div class="flex justify-end items-center bg-yellow-400 w-full rounded-tr-xl rounded-tl-xl">
         <span class="text-white font-bold text-sm sm:text-lg px-1 py-2 sm:p-2 w-full">@lang('review.Event'):</span>
         <span class="text-white font-bold text-sm sm:text-lg px-1 py-2 sm:p-2 w-24 sm:w-28 flex-shrink-0" id="rate">{{$bookmaker['name']}}</span>
         <span class="text-white font-bold text-sm sm:text-lg px-0 py-2 sm:p-2 w-16 sm:w-28 flex-shrink-0">{{$values[0][2]}}</span>

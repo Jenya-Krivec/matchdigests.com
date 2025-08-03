@@ -7,7 +7,7 @@
 @section('keywords', trans('promocode.keywords', ['bookmaker' => $bookmaker['name']]))
 
 @section('content')
-    <main class="pt-16 bg-gray-100">
+    <main class="pt-16 bg-gray-100 font-serif">
         <!-- Banner -->
         <div class="flex justify-between flex-col relative p-2 py-8 mb-2 @if($bookmaker['isLight']) text-black @else text-white @endif"
              style="background: linear-gradient(87deg, {{$bookmaker['logo_color']}} 0%, color-mix(in oklab, {{$bookmaker['logo_color']}}, white 20%) 100%)">
