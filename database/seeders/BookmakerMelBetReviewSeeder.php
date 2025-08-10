@@ -29,7 +29,7 @@ class BookmakerMelBetReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 1
+             'order' => 2
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,

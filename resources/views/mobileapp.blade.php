@@ -45,11 +45,11 @@
                 </div>
                 <div class="flex flex-col justify-around flex-shrink-0 self-stretch sm:w-36 sm:h-28 rounded-md p-2 mx-1 md:mx-auto">
                     <div class="flex flex-col justify-center items-center">
-                        <span data-url="{{$bookmaker['url']}}" class="mb-6 h-10 w-20 md:w-36 bg-white text-xs md:text-sm text-black rounded-md hover:bg-yellow-400 flex justify-center items-center cursor-pointer transition-all duration-500 shadow-gray-400">
+                        <span data-url="{{$bookmaker['url']}}" class="mb-6 h-10 w-24 md:w-36 bg-white text-xs md:text-sm text-black rounded-md hover:bg-yellow-400 flex justify-center items-center cursor-pointer transition-all duration-500 shadow-gray-400">
                             <span data-url="{{$bookmaker['url']}}">@lang('mobileapp.Download')</span>
                             <img data-url="{{$bookmaker['url']}}" src="{{asset('img/mobileapp/android.png'.'?v='.filemtime('img/mobileapp/android.png'))}}" alt="android" width="32" height="32" class="w-4 ml-1">
                         </span>
-                        <span data-url="{{$bookmaker['url']}}" class="h-10 w-20 md:w-36 bg-white text-xs md:text-sm text-black rounded-md hover:bg-yellow-400 flex justify-center items-center cursor-pointer transition-all duration-500 shadow-gray-400">
+                        <span data-url="{{$bookmaker['url']}}" class="h-10 w-24 md:w-36 bg-white text-xs md:text-sm text-black rounded-md hover:bg-yellow-400 flex justify-center items-center cursor-pointer transition-all duration-500 shadow-gray-400">
                             <span data-url="{{$bookmaker['url']}}">@lang('mobileapp.Download')</span>
                             <img data-url="{{$bookmaker['url']}}" src="{{asset('img/mobileapp/ios.png'.'?v='.filemtime('img/mobileapp/ios.png'))}}" alt="android" width="32" height="32" class="w-4 ml-1">
                         </span>
