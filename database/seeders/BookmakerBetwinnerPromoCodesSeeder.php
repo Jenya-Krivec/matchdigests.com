@@ -61,7 +61,7 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'p',
+             'component' => 'h2',
                 'value_en' => '{"0":"How to benefit from the BetWinner promo code?"}',
                 'value_es' => '{"0":"¿Cómo beneficiarse del código promocional de BetWinner?"}',
                 'value_fr' => '{"0":"Comment profiter du code promo BetWinner ?"}',
@@ -117,11 +117,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'h2',
-                'value_en' => '{"0":"Are there any no deposit bonuses?"}',
-                'value_es' => '{"0":"¿Hay bonos sin depósito?"}',
-                'value_fr' => '{"0":"Existe-t-il des bonus sans dépôt ?"}',
-                'value_pt' => '{"0":"Existem bônus sem depósito?"}',
+             'component' => 'p',
+             'value_en' => '{"0":"Sports betting bonuses must be wagered by placing bets totaling more than five times the bonus amount. These bets must be placed as accumulators with at least three events, each with odds of 1.40 or higher. The wagering requirements must be met within 30 days from the date the bonus is credited."}',
+             'value_es' => '{"0":"Los bonos de apuestas deportivas deben apostarse realizando apuestas por un monto superior a cinco veces el valor del bono. Estas apuestas deben ser combinadas con un mínimo de tres eventos, cada uno con cuotas de 1.40 o superiores. Los requisitos de apuesta deben cumplirse en un plazo de 30 días desde la fecha en que se acredita el bono."}',
+             'value_fr' => '{"0":"Les bonus de paris sportifs doivent être misés en plaçant des paris d’un montant supérieur à cinq fois le montant du bonus. Ces paris doivent être effectués sous forme de paris combinés avec au moins trois événements, chacun ayant une cote de 1,40 ou plus. Les conditions de mise doivent être respectées dans un délai de 30 jours à compter de la date de crédit du bonus."}',
+             'value_pt' => '{"0":"Os bônus de apostas esportivas devem ser apostados fazendo apostas no valor superior a cinco vezes o valor do bônus. Essas apostas devem ser acumuladas com no mínimo três eventos, cada um com odds de 1,40 ou superiores. Os requisitos de apostas devem ser cumpridos no prazo de 30 dias a partir da data de crédito do bônus."}',
              'order' => 8
             ]
         );
@@ -132,10 +132,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"No deposit bonuses at BetWinner are extremely rare, but they do occasionally appear as part of personalized campaigns or as gifts for special occasions, such as your birthday. These can include a fixed-value free bet or a casino bonus."}',
-             'value_es' => '{"0":"Los bonos sin depósito en BetWinner son muy poco frecuentes, pero ocasionalmente aparecen como parte de campañas personalizadas o como obsequios por ocasiones especiales, como cumpleaños. Pueden ser apuestas gratuitas de valor fijo o bonos de casino."}',
-             'value_fr' => '{"0":"Les bonus sans dépôt chez BetWinner sont très rares, mais ils peuvent apparaître dans le cadre de campagnes personnalisées ou comme cadeaux pour des occasions spéciales, comme un anniversaire. Il peut s’agir de paris gratuits d’un montant fixe ou d’un bonus de casino."}',
-             'value_pt' => '{"0":"Os bônus sem depósito na BetWinner são extremamente raros, mas às vezes aparecem como parte de campanhas personalizadas ou como presente em datas especiais, como o aniversário. Podem ser freebets de valor fixo ou bônus de cassino."}',
+             'value_en' => '{"0":"Casino bonuses at BetWinner also have wagering requirements. You must wager 35 times the bonus amount. Bets placed on slots count in full, while table games or live games may not count or may count only partially. The wagering requirements must be fulfilled within 7 days from the date the bonus is credited. If the requirements are not met within this period, the bonus funds and any winnings from them will be forfeited."}',
+             'value_es' => '{"0":"Los bonos de casino en BetWinner también tienen requisitos de apuesta. Debe apostar 35 veces el valor del bono. Las apuestas realizadas en tragamonedas cuentan en su totalidad, mientras que los juegos de mesa o en vivo pueden no contar o contar solo parcialmente. Los requisitos deben cumplirse en un plazo de 7 días desde la acreditación del bono. Si no se cumplen en ese plazo, los fondos del bono y las ganancias derivadas de ellos serán anulados."}',
+             'value_fr' => '{"0":"Les bonus de casino sur BetWinner sont également soumis à des conditions de mise. Vous devez miser 35 fois le montant du bonus. Les paris effectués sur les machines à sous comptent en totalité, tandis que les jeux de table ou en direct peuvent ne pas être pris en compte ou seulement partiellement. Les conditions doivent être remplies dans un délai de 7 jours à partir du crédit du bonus. Si elles ne sont pas remplies dans ce délai, les fonds bonus et les gains correspondants seront annulés."}',
+             'value_pt' => '{"0":"Os bônus de cassino na BetWinner também possuem requisitos de apostas. É necessário apostar 35 vezes o valor do bônus. As apostas feitas em caça-níqueis contam integralmente, enquanto os jogos de mesa ou ao vivo podem não contar ou contar apenas parcialmente. As condições devem ser cumpridas no prazo de 7 dias a partir do crédito do bônus. Caso não sejam cumpridas nesse prazo, os fundos do bônus e quaisquer ganhos obtidos serão anulados."}',
              'order' => 9
             ]
         );
@@ -145,11 +145,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'p',
-             'value_en' => '{"0":"Most often, no-deposit offers are not publicly advertised, and you will see the bonus information in your personal account or via email notification."}',
-             'value_es' => '{"0":"Por lo general, estas ofertas no se publicitan públicamente y la información sobre el bono aparece en tu cuenta personal o en un correo electrónico."}',
-             'value_fr' => '{"0":"La plupart du temps, ces offres ne sont pas annoncées publiquement ; les informations apparaîtront dans votre espace personnel ou par email."}',
-             'value_pt' => '{"0":"Normalmente, essas ofertas não são divulgadas publicamente, e as informações sobre o bônus aparecem na conta pessoal ou por e-mail."}',
+             'component' => 'h2',
+                'value_en' => '{"0":"Are there any no deposit bonuses?"}',
+                'value_es' => '{"0":"¿Hay bonos sin depósito?"}',
+                'value_fr' => '{"0":"Existe-t-il des bonus sans dépôt ?"}',
+                'value_pt' => '{"0":"Existem bônus sem depósito?"}',
              'order' => 10
             ]
         );
@@ -159,11 +159,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'h2',
-                'value_en' => '{"0":"What if you are already registered at BetWinner?"}',
-                'value_es' => '{"0":"¿Qué pasa si ya estás registrado en BetWinner?"}',
-                'value_fr' => '{"0":"Que se passe-t-il si vous êtes déjà inscrit sur BetWinner ?"}',
-                'value_pt' => '{"0":"E se você já for registrado na BetWinner?"}',
+             'component' => 'p',
+             'value_en' => '{"0":"No deposit bonuses at BetWinner are extremely rare, but they do occasionally appear as part of personalized campaigns or as gifts for special occasions, such as your birthday. These can include a fixed-value free bet or a casino bonus."}',
+             'value_es' => '{"0":"Los bonos sin depósito en BetWinner son muy poco frecuentes, pero ocasionalmente aparecen como parte de campañas personalizadas o como obsequios por ocasiones especiales, como cumpleaños. Pueden ser apuestas gratuitas de valor fijo o bonos de casino."}',
+             'value_fr' => '{"0":"Les bonus sans dépôt chez BetWinner sont très rares, mais ils peuvent apparaître dans le cadre de campagnes personnalisées ou comme cadeaux pour des occasions spéciales, comme un anniversaire. Il peut s’agir de paris gratuits d’un montant fixe ou d’un bonus de casino."}',
+             'value_pt' => '{"0":"Os bônus sem depósito na BetWinner são extremamente raros, mas às vezes aparecem como parte de campanhas personalizadas ou como presente em datas especiais, como o aniversário. Podem ser freebets de valor fixo ou bônus de cassino."}',
              'order' => 11
             ]
         );
@@ -174,10 +174,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"Yes, BetWinner actively engages with already registered players. Users receive regular offers such as cashback, free bets, deposit bonuses (e.g., on Fridays or weekends), as well as promo codes linked to the sports calendar, such as the start of the football season or major tennis tournaments."}',
-             'value_es' => '{"0":"Sí, BetWinner trabaja activamente con los jugadores ya registrados. Los usuarios reciben ofertas regulares como reembolsos, apuestas gratuitas, bonos por depósito (por ejemplo, los viernes o fines de semana), así como códigos promocionales vinculados al calendario deportivo, como el inicio de la temporada de fútbol o grandes torneos de tenis."}',
-             'value_fr' => '{"0":"Oui, BetWinner s’adresse activement aux joueurs déjà inscrits. Les utilisateurs reçoivent régulièrement des offres telles que des cashback, des paris gratuits, des bonus de dépôt (par exemple le vendredi ou le week-end), ainsi que des codes promo liés au calendrier sportif, comme le début de la saison de football ou les grands tournois de tennis."}',
-             'value_pt' => '{"0":"Sim, a BetWinner trabalha ativamente com jogadores já registrados. Os usuários recebem ofertas regulares, como cashback, apostas grátis, bônus de depósito (por exemplo, às sextas-feiras ou fins de semana), além de códigos promocionais vinculados ao calendário esportivo, como o início da temporada de futebol ou grandes torneios de tênis."}',
+             'value_en' => '{"0":"Most often, no-deposit offers are not publicly advertised, and you will see the bonus information in your personal account or via email notification."}',
+             'value_es' => '{"0":"Por lo general, estas ofertas no se publicitan públicamente y la información sobre el bono aparece en tu cuenta personal o en un correo electrónico."}',
+             'value_fr' => '{"0":"La plupart du temps, ces offres ne sont pas annoncées publiquement ; les informations apparaîtront dans votre espace personnel ou par email."}',
+             'value_pt' => '{"0":"Normalmente, essas ofertas não são divulgadas publicamente, e as informações sobre o bônus aparecem na conta pessoal ou por e-mail."}',
              'order' => 12
             ]
         );
@@ -187,11 +187,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'p',
-             'value_en' => '{"0":"There is also a bonus points system, where points can be exchanged for bets. Active players have access to special promotions, including raffles for gadgets, prizes, and participation in the VIP program."}',
-             'value_es' => '{"0":"También existe un sistema de puntos de bonificación que se pueden canjear por apuestas. Los jugadores activos tienen acceso a promociones especiales que incluyen sorteos de dispositivos, premios y participación en el programa VIP."}',
-             'value_fr' => '{"0":"Un système de points bonus est également en place, les points pouvant être échangés contre des paris. Les joueurs actifs ont accès à des promotions spéciales, incluant des tirages au sort de gadgets, des prix et une participation au programme VIP."}',
-             'value_pt' => '{"0":"Também existe um sistema de pontos de bônus, que podem ser trocados por apostas. Jogadores ativos têm acesso a promoções especiais, incluindo sorteios de eletrônicos, prêmios e participação no programa VIP."}',
+             'component' => 'h2',
+                'value_en' => '{"0":"What if you are already registered at BetWinner?"}',
+                'value_es' => '{"0":"¿Qué pasa si ya estás registrado en BetWinner?"}',
+                'value_fr' => '{"0":"Que se passe-t-il si vous êtes déjà inscrit sur BetWinner ?"}',
+                'value_pt' => '{"0":"E se você já for registrado na BetWinner?"}',
              'order' => 13
             ]
         );
@@ -201,11 +201,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'h2',
-                'value_en' => '{"0":"Big Match"}',
-                'value_es' => '{"0":"El Gran Partido"}',
-                'value_fr' => '{"0":"Grand match"}',
-                'value_pt' => '{"0":"Grande Jogo"}',
+             'component' => 'p',
+             'value_en' => '{"0":"Yes, BetWinner actively engages with already registered players. Users receive regular offers such as cashback, free bets, deposit bonuses (e.g., on Fridays or weekends), as well as promo codes linked to the sports calendar, such as the start of the football season or major tennis tournaments."}',
+             'value_es' => '{"0":"Sí, BetWinner trabaja activamente con los jugadores ya registrados. Los usuarios reciben ofertas regulares como reembolsos, apuestas gratuitas, bonos por depósito (por ejemplo, los viernes o fines de semana), así como códigos promocionales vinculados al calendario deportivo, como el inicio de la temporada de fútbol o grandes torneos de tenis."}',
+             'value_fr' => '{"0":"Oui, BetWinner s’adresse activement aux joueurs déjà inscrits. Les utilisateurs reçoivent régulièrement des offres telles que des cashback, des paris gratuits, des bonus de dépôt (par exemple le vendredi ou le week-end), ainsi que des codes promo liés au calendrier sportif, comme le début de la saison de football ou les grands tournois de tennis."}',
+             'value_pt' => '{"0":"Sim, a BetWinner trabalha ativamente com jogadores já registrados. Os usuários recebem ofertas regulares, como cashback, apostas grátis, bônus de depósito (por exemplo, às sextas-feiras ou fins de semana), além de códigos promocionais vinculados ao calendário esportivo, como o início da temporada de futebol ou grandes torneios de tênis."}',
              'order' => 14
             ]
         );
@@ -216,10 +216,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"One of the most popular promotions at BetWinner is Big Match. It is dedicated to the week’s main football events such as the Champions League, international matches, and top derbies."}',
-             'value_es' => '{"0":"Una de las promociones más populares de BetWinner es El Gran Partido. Está dedicada a los principales partidos de fútbol de la semana, como la Liga de Campeones, partidos de selecciones y los grandes clásicos."}',
-             'value_fr' => '{"0":"L’une des promotions les plus populaires chez BetWinner est Grand match. Elle est dédiée aux grands matchs de la semaine, comme la Ligue des champions, les matchs internationaux et les grands derbys."}',
-             'value_pt' => '{"0":"Uma das promoções mais populares da BetWinner é o Grande Jogo. Ela é dedicada aos principais jogos de futebol da semana, como a Liga dos Campeões, partidas de seleções e grandes clássicos."}',
+             'value_en' => '{"0":"There is also a bonus points system, where points can be exchanged for bets. Active players have access to special promotions, including raffles for gadgets, prizes, and participation in the VIP program."}',
+             'value_es' => '{"0":"También existe un sistema de puntos de bonificación que se pueden canjear por apuestas. Los jugadores activos tienen acceso a promociones especiales que incluyen sorteos de dispositivos, premios y participación en el programa VIP."}',
+             'value_fr' => '{"0":"Un système de points bonus est également en place, les points pouvant être échangés contre des paris. Les joueurs actifs ont accès à des promotions spéciales, incluant des tirages au sort de gadgets, des prix et une participation au programme VIP."}',
+             'value_pt' => '{"0":"Também existe um sistema de pontos de bônus, que podem ser trocados por apostas. Jogadores ativos têm acesso a promoções especiais, incluindo sorteios de eletrônicos, prêmios e participação no programa VIP."}',
              'order' => 15
             ]
         );
@@ -229,11 +229,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'p',
-             'value_en' => '{"0":"As part of the promotion, players who place a pre-match bet can receive a free bet for a live bet during the second half. The bonus amount depends on the odds and size of the pre-match bet. The promotion works automatically, with no need for activation or registration. It\'s convenient and allows players to gain extra value while watching the match live."}',
-             'value_es' => '{"0":"Como parte de la promoción, los jugadores que realicen una apuesta previa al partido pueden recibir una apuesta gratuita para usar en vivo durante el segundo tiempo. El importe del bono depende de la cuota y el monto de la apuesta pre-partido. La promoción funciona automáticamente, sin necesidad de activación o registro. Es conveniente y permite obtener un beneficio adicional mientras se sigue el partido en directo."}',
-             'value_fr' => '{"0":"Dans le cadre de cette promotion, les joueurs ayant placé un pari avant le début du match peuvent recevoir un pari gratuit à utiliser en direct pendant la seconde mi-temps. Le montant du bonus dépend de la cote et du montant du pari pré-match. La promotion fonctionne automatiquement, sans activation ni inscription. C’est pratique et cela permet de profiter d’un avantage supplémentaire tout en regardant le match en direct."}',
-             'value_pt' => '{"0":"Como parte da promoção, os jogadores que fizerem uma aposta pré-jogo podem receber uma aposta grátis para usar ao vivo no segundo tempo. O valor do bônus depende da odd e do valor da aposta pré-jogo. A promoção funciona automaticamente, sem necessidade de ativação ou registro. É conveniente e oferece uma vantagem extra enquanto se assiste ao jogo em tempo real."}',
+             'component' => 'h2',
+                'value_en' => '{"0":"Big Match"}',
+                'value_es' => '{"0":"El Gran Partido"}',
+                'value_fr' => '{"0":"Grand match"}',
+                'value_pt' => '{"0":"Grande Jogo"}',
              'order' => 16
             ]
         );
@@ -243,11 +243,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'img',
-                'value_en' => '{"0":"img-3.webp"}',
-                'value_es' => '{"0":"img-3.webp"}',
-                'value_fr' => '{"0":"img-3.webp"}',
-                'value_pt' => '{"0":"img-3.webp"}',
+             'component' => 'p',
+             'value_en' => '{"0":"One of the most popular promotions at BetWinner is Big Match. It is dedicated to the week’s main football events such as the Champions League, international matches, and top derbies."}',
+             'value_es' => '{"0":"Una de las promociones más populares de BetWinner es El Gran Partido. Está dedicada a los principales partidos de fútbol de la semana, como la Liga de Campeones, partidos de selecciones y los grandes clásicos."}',
+             'value_fr' => '{"0":"L’une des promotions les plus populaires chez BetWinner est Grand match. Elle est dédiée aux grands matchs de la semaine, comme la Ligue des champions, les matchs internationaux et les grands derbys."}',
+             'value_pt' => '{"0":"Uma das promoções mais populares da BetWinner é o Grande Jogo. Ela é dedicada aos principais jogos de futebol da semana, como a Liga dos Campeões, partidas de seleções e grandes clássicos."}',
              'order' => 17
             ]
         );
@@ -257,11 +257,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'h2',
-                'value_en' => '{"0":"Betwinner Casino Welcome Offer"}',
-                'value_es' => '{"0":"Oferta de bienvenida del casino Betwinner"}',
-                'value_fr' => '{"0":"Offre de bienvenue du casino Betwinner"}',
-                'value_pt' => '{"0":"Oferta de boas-vindas do cassino Betwinner"}',
+             'component' => 'p',
+             'value_en' => '{"0":"As part of the promotion, players who place a pre-match bet can receive a free bet for a live bet during the second half. The bonus amount depends on the odds and size of the pre-match bet. The promotion works automatically, with no need for activation or registration. It\'s convenient and allows players to gain extra value while watching the match live."}',
+             'value_es' => '{"0":"Como parte de la promoción, los jugadores que realicen una apuesta previa al partido pueden recibir una apuesta gratuita para usar en vivo durante el segundo tiempo. El importe del bono depende de la cuota y el monto de la apuesta pre-partido. La promoción funciona automáticamente, sin necesidad de activación o registro. Es conveniente y permite obtener un beneficio adicional mientras se sigue el partido en directo."}',
+             'value_fr' => '{"0":"Dans le cadre de cette promotion, les joueurs ayant placé un pari avant le début du match peuvent recevoir un pari gratuit à utiliser en direct pendant la seconde mi-temps. Le montant du bonus dépend de la cote et du montant du pari pré-match. La promotion fonctionne automatiquement, sans activation ni inscription. C’est pratique et cela permet de profiter d’un avantage supplémentaire tout en regardant le match en direct."}',
+             'value_pt' => '{"0":"Como parte da promoção, os jogadores que fizerem uma aposta pré-jogo podem receber uma aposta grátis para usar ao vivo no segundo tempo. O valor do bônus depende da odd e do valor da aposta pré-jogo. A promoção funciona automaticamente, sem necessidade de ativação ou registro. É conveniente e oferece uma vantagem extra enquanto se assiste ao jogo em tempo real."}',
              'order' => 18
             ]
         );
@@ -271,11 +271,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'p',
-             'value_en' => '{"0":"A separate line of bonuses is available for casino users. The welcome package includes four bonuses on the first deposits. In total, players can receive up to €1500 + 150 free spins."}',
-             'value_es' => '{"0":"Existe una línea de bonos específica para los usuarios del casino. El paquete de bienvenida incluye cuatro bonos para los primeros depósitos. En total, se pueden obtener hasta €1500 + 150 giros gratis."}',
-             'value_fr' => '{"0":"Une gamme de bonus distincte est prévue pour les utilisateurs du casino. Le pack de bienvenue comprend quatre bonus sur les premiers dépôts. Au total, vous pouvez recevoir jusqu’à 1500€ + 150 tours gratuits."}',
-             'value_pt' => '{"0":"Existe uma linha de bónus separada para os utilizadores de casino. O pacote de boas-vindas inclui quatro bónus nos primeiros depósitos. No total, é possível receber até €1500 + 150 rodadas grátis."}',
+             'component' => 'img',
+                'value_en' => '{"0":"img-3.webp"}',
+                'value_es' => '{"0":"img-3.webp"}',
+                'value_fr' => '{"0":"img-3.webp"}',
+                'value_pt' => '{"0":"img-3.webp"}',
              'order' => 19
             ]
         );
@@ -285,11 +285,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'p',
-             'value_en' => '{"0":"The bonuses are activated sequentially, each one after the wagering of the previous. The minimum deposit to participate in the promotion is €10."}',
-             'value_es' => '{"0":"Los bonos se activan de forma secuencial, uno tras completar el requisito de apuesta del anterior. El depósito mínimo para participar en la promoción es de €10."}',
-             'value_fr' => '{"0":"Les bonus s’activent successivement, chaque nouveau bonus étant débloqué après que le précédent ait été misé. Le dépôt minimum pour participer à la promotion est de 10€."}',
-             'value_pt' => '{"0":"Os bónus são ativados de forma sequencial, cada um após a conclusão do rollover do anterior. O depósito mínimo para participar na promoção é de €10."}',
+             'component' => 'h2',
+                'value_en' => '{"0":"Betwinner Casino Welcome Offer"}',
+                'value_es' => '{"0":"Oferta de bienvenida del casino Betwinner"}',
+                'value_fr' => '{"0":"Offre de bienvenue du casino Betwinner"}',
+                'value_pt' => '{"0":"Oferta de boas-vindas do cassino Betwinner"}',
              'order' => 20
             ]
         );
@@ -300,10 +300,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"Free spins are granted on popular slots, and the wagering requirement for the bonuses is 35x. It’s important to note that casino bonuses are not compatible with the sports bonus, so you must choose the bonus type during your first deposit."}',
-             'value_es' => '{"0":"Los giros gratis se otorgan en tragamonedas populares y el requisito de apuesta para los bonos es de 35x. Es importante tener en cuenta que los bonos de casino no son compatibles con los bonos deportivos, por lo que deberás elegir el tipo de bono al realizar tu primer depósito."}',
-             'value_fr' => '{"0":"Les tours gratuits sont attribués sur des machines à sous populaires, et le wager pour les bonus est de 35x. Il est important de noter que les bonus de casino ne sont pas compatibles avec le bonus sportif, vous devrez donc choisir le type de bonus lors de votre premier dépôt."}',
-             'value_pt' => '{"0":"As rodadas grátis são oferecidas em slots populares, e o requisito de apostas para os bónus é de 35x. É importante observar que os bónus de casino não são compatíveis com o bónus de apostas desportivas, por isso é necessário escolher o tipo de bónus no primeiro depósito."}',
+             'value_en' => '{"0":"A separate line of bonuses is available for casino users. The welcome package includes four bonuses on the first deposits. In total, players can receive up to €1500 + 150 free spins."}',
+             'value_es' => '{"0":"Existe una línea de bonos específica para los usuarios del casino. El paquete de bienvenida incluye cuatro bonos para los primeros depósitos. En total, se pueden obtener hasta €1500 + 150 giros gratis."}',
+             'value_fr' => '{"0":"Une gamme de bonus distincte est prévue pour les utilisateurs du casino. Le pack de bienvenue comprend quatre bonus sur les premiers dépôts. Au total, vous pouvez recevoir jusqu’à 1500€ + 150 tours gratuits."}',
+             'value_pt' => '{"0":"Existe uma linha de bónus separada para os utilizadores de casino. O pacote de boas-vindas inclui quatro bónus nos primeiros depósitos. No total, é possível receber até €1500 + 150 rodadas grátis."}',
              'order' => 21
             ]
         );
@@ -313,11 +313,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'h2',
-                'value_en' => '{"0":"Nil-Nil Draw"}',
-                'value_es' => '{"0":"Empate a cero"}',
-                'value_fr' => '{"0":"Match nul 0-0"}',
-                'value_pt' => '{"0":"Empate a zero"}',
+             'component' => 'p',
+             'value_en' => '{"0":"The bonuses are activated sequentially, each one after the wagering of the previous. The minimum deposit to participate in the promotion is €10."}',
+             'value_es' => '{"0":"Los bonos se activan de forma secuencial, uno tras completar el requisito de apuesta del anterior. El depósito mínimo para participar en la promoción es de €10."}',
+             'value_fr' => '{"0":"Les bonus s’activent successivement, chaque nouveau bonus étant débloqué après que le précédent ait été misé. Le dépôt minimum pour participer à la promotion est de 10€."}',
+             'value_pt' => '{"0":"Os bónus são ativados de forma sequencial, cada um após a conclusão do rollover do anterior. O depósito mínimo para participar na promoção é de €10."}',
              'order' => 22
             ]
         );
@@ -328,10 +328,10 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
              'component' => 'p',
-             'value_en' => '{"0":"Another thematic promotion that BetWinner regularly launches for football matches. If you place a bet on any of the main outcomes, such as a team to win, and the match ends in a 0:0 draw, you will receive a refund in the form of a free bet. This offer is particularly relevant for matches where teams have a history of drawing in previous encounters."}',
-             'value_es' => '{"0":"Otra promoción temática que BetWinner lanza regularmente para partidos de fútbol. Si haces una apuesta a cualquiera de los resultados principales, como la victoria de un equipo, y el partido termina 0:0, recibirás un reembolso en forma de apuesta gratuita. Esta oferta es especialmente relevante para partidos en los que los equipos tienen un historial de empates previos."}',
-             'value_fr' => '{"0":"Une autre promotion thématique que BetWinner lance régulièrement pour les matchs de football. Si vous placez un pari sur l’un des résultats principaux, comme la victoire d’une équipe, et que le match se termine sur un score de 0:0, vous recevrez un remboursement sous forme de pari gratuit. Cette offre est particulièrement pertinente pour les matchs où les équipes ont une histoire de matchs nuls précédents."}',
-             'value_pt' => '{"0":"Outra promoção temática que a BetWinner lança regularmente para jogos de futebol. Se fizer uma aposta em qualquer um dos resultados principais, como a vitória de uma equipa, e o jogo terminar 0:0, receberá o reembolso na forma de uma aposta grátis. Esta oferta é especialmente relevante para jogos entre equipas com histórico de empates anteriores."}',
+             'value_en' => '{"0":"Free spins are granted on popular slots, and the wagering requirement for the bonuses is 35x. It’s important to note that casino bonuses are not compatible with the sports bonus, so you must choose the bonus type during your first deposit."}',
+             'value_es' => '{"0":"Los giros gratis se otorgan en tragamonedas populares y el requisito de apuesta para los bonos es de 35x. Es importante tener en cuenta que los bonos de casino no son compatibles con los bonos deportivos, por lo que deberás elegir el tipo de bono al realizar tu primer depósito."}',
+             'value_fr' => '{"0":"Les tours gratuits sont attribués sur des machines à sous populaires, et le wager pour les bonus est de 35x. Il est important de noter que les bonus de casino ne sont pas compatibles avec le bonus sportif, vous devrez donc choisir le type de bonus lors de votre premier dépôt."}',
+             'value_pt' => '{"0":"As rodadas grátis são oferecidas em slots populares, e o requisito de apostas para os bónus é de 35x. É importante observar que os bónus de casino não são compatíveis com o bónus de apostas desportivas, por isso é necessário escolher o tipo de bónus no primeiro depósito."}',
              'order' => 23
             ]
         );
@@ -341,11 +341,11 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
-             'component' => 'p',
-             'value_en' => '{"0":"The terms of the promotion are simple: you need to place a bet of at least €5 on the specified event. The free bet is automatically credited after the match ends. This promotion can serve as an extra layer of insurance for players willing to take risks on matches with a high likelihood of a draw."}',
-             'value_es' => '{"0":"Los términos de la promoción son sencillos: debes realizar una apuesta de al menos 5 € en el evento indicado. La apuesta gratuita se acredita automáticamente después de que finalice el partido. Esta promoción puede servir como un nivel adicional de protección para los jugadores que se atreven a apostar en partidos con alta probabilidad de empate."}',
-             'value_fr' => '{"0":"Les conditions de la promotion sont simples : il faut miser au moins 5 € sur l’événement indiqué. Le pari gratuit est automatiquement crédité après la fin du match. Cette promotion peut constituer un niveau de protection supplémentaire pour les joueurs prêts à prendre des risques sur des matchs à forte probabilité de match nul."}',
-             'value_pt' => '{"0":"Os termos da promoção são simples: é necessário fazer uma aposta de pelo menos 5€ no evento indicado. A aposta grátis é creditada automaticamente após o término do jogo. Esta promoção pode funcionar como uma camada extra de proteção para os jogadores que não têm medo de arriscar em jogos com alta probabilidade de empate."}',
+             'component' => 'h2',
+                'value_en' => '{"0":"Nil-Nil Draw"}',
+                'value_es' => '{"0":"Empate a cero"}',
+                'value_fr' => '{"0":"Match nul 0-0"}',
+                'value_pt' => '{"0":"Empate a zero"}',
              'order' => 24
             ]
         );
@@ -355,12 +355,194 @@ class BookmakerBetwinnerPromoCodesSeeder extends Seeder
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
+             'component' => 'p',
+             'value_en' => '{"0":"Another thematic promotion that BetWinner regularly launches for football matches. If you place a bet on any of the main outcomes, such as a team to win, and the match ends in a 0:0 draw, you will receive a refund in the form of a free bet. This offer is particularly relevant for matches where teams have a history of drawing in previous encounters."}',
+             'value_es' => '{"0":"Otra promoción temática que BetWinner lanza regularmente para partidos de fútbol. Si haces una apuesta a cualquiera de los resultados principales, como la victoria de un equipo, y el partido termina 0:0, recibirás un reembolso en forma de apuesta gratuita. Esta oferta es especialmente relevante para partidos en los que los equipos tienen un historial de empates previos."}',
+             'value_fr' => '{"0":"Une autre promotion thématique que BetWinner lance régulièrement pour les matchs de football. Si vous placez un pari sur l’un des résultats principaux, comme la victoire d’une équipe, et que le match se termine sur un score de 0:0, vous recevrez un remboursement sous forme de pari gratuit. Cette offre est particulièrement pertinente pour les matchs où les équipes ont une histoire de matchs nuls précédents."}',
+             'value_pt' => '{"0":"Outra promoção temática que a BetWinner lança regularmente para jogos de futebol. Se fizer uma aposta em qualquer um dos resultados principais, como a vitória de uma equipa, e o jogo terminar 0:0, receberá o reembolso na forma de uma aposta grátis. Esta oferta é especialmente relevante para jogos entre equipas com histórico de empates anteriores."}',
+             'order' => 25
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 26
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'p',
+             'value_en' => '{"0":"The terms of the promotion are simple: you need to place a bet of at least €5 on the specified event. The free bet is automatically credited after the match ends. This promotion can serve as an extra layer of insurance for players willing to take risks on matches with a high likelihood of a draw."}',
+             'value_es' => '{"0":"Los términos de la promoción son sencillos: debes realizar una apuesta de al menos 5 € en el evento indicado. La apuesta gratuita se acredita automáticamente después de que finalice el partido. Esta promoción puede servir como un nivel adicional de protección para los jugadores que se atreven a apostar en partidos con alta probabilidad de empate."}',
+             'value_fr' => '{"0":"Les conditions de la promotion sont simples : il faut miser au moins 5 € sur l’événement indiqué. Le pari gratuit est automatiquement crédité après la fin du match. Cette promotion peut constituer un niveau de protection supplémentaire pour les joueurs prêts à prendre des risques sur des matchs à forte probabilité de match nul."}',
+             'value_pt' => '{"0":"Os termos da promoção são simples: é necessário fazer uma aposta de pelo menos 5€ no evento indicado. A aposta grátis é creditada automaticamente após o término do jogo. Esta promoção pode funcionar como uma camada extra de proteção para os jogadores que não têm medo de arriscar em jogos com alta probabilidade de empate."}',
+             'order' => 26
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 27
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
              'component' => 'img',
                 'value_en' => '{"0":"img-4.webp"}',
                 'value_es' => '{"0":"img-4.webp"}',
                 'value_fr' => '{"0":"img-4.webp"}',
                 'value_pt' => '{"0":"img-4.webp"}',
-             'order' => 25
+             'order' => 27
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 28
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'h2',
+                'value_en' => '{"0":"Frequently Asked Questions"}',
+                'value_es' => '{"0":"Preguntas Frecuentes"}',
+                'value_fr' => '{"0":"Questions Fréquemment Posées"}',
+                'value_pt' => '{"0":"Perguntas Frequentes"}',
+             'order' => 28
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 29
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'h3',
+             'value_en' => '{"0":"Where do I enter the promo code when registering on BetWinner?"}',
+             'value_es' => '{"0":"¿Dónde se introduce el código promocional al registrarse en BetWinner?"}',
+             'value_fr' => '{"0":"Où saisir le code promo lors de l\'inscription sur BetWinner ?"}',
+             'value_pt' => '{"0":"Onde inserir o código promocional ao se registrar no BetWinner?"}',
+             'order' => 29
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 30
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'p',
+             'value_en' => '{"0":"The promo code is entered in the special field while filling out the registration form, before confirming the creation of the account."}',
+             'value_es' => '{"0":"El código promocional se introduce en el campo especial durante el llenado del formulario de registro, antes de confirmar la creación de la cuenta."}',
+             'value_fr' => '{"0":"Le code promo doit être saisi dans le champ prévu à cet effet lors du remplissage du formulaire d\'inscription, avant de confirmer la création du compte."}',
+             'value_pt' => '{"0":"O código promocional deve ser inserido no campo especial ao preencher o formulário de registro, antes de confirmar a criação da conta."}',
+             'order' => 30
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 31
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'h3',
+             'value_en' => '{"0":"Can I use the promo code after creating an account?"}',
+             'value_es' => '{"0":"¿Se puede usar el código promocional después de crear una cuenta?"}',
+             'value_fr' => '{"0":"Peut-on utiliser le code promo après avoir créé un compte ?"}',
+             'value_pt' => '{"0":"Posso usar o código promocional após criar a conta?"}',
+             'order' => 31
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 32
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'p',
+             'value_en' => '{"0":"No, the promo code can only be activated during registration. Once the account creation process is complete, it cannot be added."}',
+             'value_es' => '{"0":"No, el código promocional solo se puede activar durante el registro. Una vez finalizado el proceso de creación de la cuenta, no se puede añadir."}',
+             'value_fr' => '{"0":"Non, le code promo ne peut être activé qu\'au moment de l\'inscription. Une fois le processus de création du compte terminé, il ne peut pas être ajouté."}',
+             'value_pt' => '{"0":"Não, o código promocional só pode ser ativado durante o registro. Depois que o processo de criação da conta é concluído, não é possível adicioná-lo."}',
+             'order' => 32
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 33
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'h3',
+             'value_en' => '{"0":"What is the minimum deposit to activate the bonus?"}',
+             'value_es' => '{"0":"¿Cuál es el depósito mínimo para activar el bono?"}',
+             'value_fr' => '{"0":"Quel est le dépôt minimum pour activer le bonus ?"}',
+             'value_pt' => '{"0":"Qual é o depósito mínimo para ativar o bônus?"}',
+             'order' => 33
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 34
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'p',
+             'value_en' => '{"0":"The minimum deposit is usually $1 or the equivalent in another currency."}',
+             'value_es' => '{"0":"El depósito mínimo suele ser de 1 $ o el equivalente en otra moneda."}',
+             'value_fr' => '{"0":"Le dépôt minimum est généralement de 1 $ ou l\'équivalent dans une autre devise."}',
+             'value_pt' => '{"0":"O depósito mínimo geralmente é de US$ 1 ou o equivalente em outra moeda."}',
+             'order' => 34
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 35
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'h3',
+             'value_en' => '{"0":"How much time is given to wager bonuses in the casino and sports betting?"}',
+             'value_es' => '{"0":"¿Cuánto tiempo se da para apostar los bonos en el casino y en las apuestas deportivas?"}',
+             'value_fr' => '{"0":"Combien de temps est accordé pour miser les bonus au casino et sur les paris sportifs ?"}',
+             'value_pt' => '{"0":"Quanto tempo é dado para apostar os bônus no cassino e nas apostas esportivas?"}',
+             'order' => 35
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 36
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'p',
+             'value_en' => '{"0":"For the casino, the period is 7 days, and for sports betting — 30 days from the moment the bonus is credited."}',
+             'value_es' => '{"0":"Para el casino, el plazo es de 7 días y para las apuestas deportivas, de 30 días desde el momento en que se acredita el bono."}',
+             'value_fr' => '{"0":"Pour le casino, le délai est de 7 jours et pour les paris sportifs, de 30 jours à partir du moment où le bonus est crédité."}',
+             'value_pt' => '{"0":"Para o cassino, o prazo é de 7 dias e para as apostas esportivas, de 30 dias a partir do momento em que o bônus é creditado."}',
+             'order' => 36
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 37
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'h3',
+             'value_en' => '{"0":"Can bonus funds be withdrawn without wagering?"}',
+             'value_es' => '{"0":"¿Se pueden retirar los fondos de bono sin apostarlos?"}',
+             'value_fr' => '{"0":"Peut-on retirer les fonds bonus sans les miser ?"}',
+             'value_pt' => '{"0":"É possível sacar os fundos de bônus sem apostar?"}',
+             'order' => 37
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 38
+            ],
+            ['key' => 'betwinner',
+             'bookmaker_id' => 3,
+             'component' => 'p',
+             'value_en' => '{"0":"No, you must first fully meet the wagering requirements. Only after that will the bonus funds and winnings become available for withdrawal."}',
+             'value_es' => '{"0":"No, primero debe cumplir completamente con los requisitos de apuesta. Solo después de eso, los fondos de bono y las ganancias estarán disponibles para retirar."}',
+             'value_fr' => '{"0":"Non, il faut d’abord remplir entièrement les conditions de mise. Ce n’est qu’après cela que les fonds bonus et les gains seront disponibles pour le retrait."}',
+             'value_pt' => '{"0":"Não, é necessário primeiro cumprir totalmente os requisitos de aposta. Só depois disso os fundos de bônus e os ganhos estarão disponíveis para saque."}',
+             'order' => 38
             ]
         );
     }

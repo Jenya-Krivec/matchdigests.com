@@ -173,11 +173,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'h2',
-                'value_en' => '{"0":"Are there any no deposit bonuses?"}',
-                'value_es' => '{"0":"¿Hay bonos sin depósito?"}',
-                'value_fr' => '{"0":"Existe-t-il des bonus sans dépôt ?"}',
-                'value_pt' => '{"0":"Existem bônus sem depósito?"}',
+             'component' => 'p',
+             'value_en' => '{"0":"For bonuses received in the 1win casino, the bonus amount must be wagered 30 times in games. All bets on slots and other games count towards wagering. The maximum bet during wagering is $5 or the equivalent in another currency."}',
+             'value_es' => '{"0":"Para los bonos recibidos en el casino de 1win, el importe del bono debe apostarse 30 veces en juegos. Todas las apuestas en tragamonedas y otros juegos cuentan para el requisito de apuesta. La apuesta máxima durante el período de liberación del bono es de 5 USD o el equivalente en otra moneda."}',
+             'value_fr' => '{"0":"Pour les bonus reçus dans le casino 1win, le montant du bonus doit être misé 30 fois sur les jeux. Toutes les mises sur les machines à sous et autres jeux sont prises en compte pour les conditions de mise. La mise maximale pendant la période de mise est de 5 USD ou l\'équivalent dans une autre devise."}',
+             'value_pt' => '{"0":"Para os bônus recebidos no cassino da 1win, o valor do bônus deve ser apostado 30 vezes em jogos. Todas as apostas em caça-níqueis e outros jogos contam para o requisito de apostas. A aposta máxima durante o período de liberação é de US$ 5 ou o equivalente em outra moeda."}',
              'order' => 12
             ]
         );
@@ -188,10 +188,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"1win does not offer no-deposit bonuses on a permanent basis, but the company regularly runs promotional campaigns during which you can receive small free bets or free spins without making a deposit."}',
-             'value_es' => '{"0":"1win no ofrece bonos sin depósito de forma permanente, pero la empresa organiza regularmente campañas promocionales en las que puedes recibir pequeñas apuestas gratis o giros gratis sin realizar un depósito."}',
-             'value_fr' => '{"0":"1win ne propose pas de bonus sans dépôt de manière permanente, mais l’entreprise organise régulièrement des campagnes promotionnelles durant lesquelles vous pouvez obtenir de petits paris gratuits ou des tours gratuits sans effectuer de dépôt."}',
-             'value_pt' => '{"0":"A 1win não oferece bônus sem depósito de forma permanente, mas a empresa realiza regularmente campanhas promocionais nas quais é possível receber pequenas apostas grátis ou rodadas grátis sem fazer um depósito."}',
+             'value_en' => '{"0":"For sports bonuses at 1win, a wagering requirement also applies, usually requiring the bonus amount to be wagered five times on bets with odds of at least 1.8. Only singles and accumulators that meet these requirements are counted."}',
+             'value_es' => '{"0":"Para los bonos de deportes en 1win, también se aplica un requisito de apuesta, que normalmente implica apostar el importe del bono cinco veces en apuestas con una cuota mínima de 1.8. Solo se contabilizan las apuestas simples y combinadas que cumplan estos requisitos."}',
+             'value_fr' => '{"0":"Pour les bonus sportifs chez 1win, un exigence de mise s’applique également, nécessitant généralement de miser le montant du bonus cinq fois sur des paris avec une cote d’au moins 1,8. Seuls les paris simples et combinés répondant à ces critères sont pris en compte."}',
+             'value_pt' => '{"0":"Para os bônus de esportes na 1win, também se aplica um requisito de apostas, que normalmente exige apostar o valor do bônus cinco vezes em apostas com odds mínimas de 1,8. Apenas apostas simples e múltiplas que atendam a esses requisitos são contabilizadas."}',
              'order' => 13
             ]
         );
@@ -202,10 +202,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"Such offers are usually provided as part of holiday events, for example, during the New Year promotion or major sporting events such as the World Cup, the Champions League, or the Olympic Games. No-deposit bonuses may also be offered as a personal reward for active users."}',
-             'value_es' => '{"0":"Estas ofertas suelen estar disponibles en el marco de eventos festivos, por ejemplo, durante la promoción de Año Nuevo o en grandes eventos deportivos como la Copa del Mundo, la Liga de Campeones o los Juegos Olímpicos. Los bonos sin depósito también pueden otorgarse como una oferta personalizada para usuarios activos."}',
-             'value_fr' => '{"0":"Ces offres sont généralement proposées dans le cadre d’événements festifs, par exemple lors de la promotion du Nouvel An ou à l’occasion de grands événements sportifs tels que la Coupe du Monde, la Ligue des Champions ou les Jeux Olympiques. Les bonus sans dépôt peuvent également être offerts en tant que proposition personnalisée aux utilisateurs actifs."}',
-             'value_pt' => '{"0":"Essas ofertas geralmente são disponibilizadas durante eventos festivos, por exemplo, na promoção de Ano Novo ou em grandes eventos esportivos como a Copa do Mundo, a Liga dos Campeões ou os Jogos Olímpicos. Os bônus sem depósito também podem ser oferecidos como uma proposta personalizada para usuários ativos."}',
+             'value_en' => '{"0":"For the casino, the wagering period is usually 7 days from the moment the bonus is credited, while for sports betting — 30 days. After this period ends, any unwagered bonuses are automatically removed from the account."}',
+             'value_es' => '{"0":"En el casino, el período de apuesta suele ser de 7 días desde el momento en que se acredita el bono, mientras que para las apuestas deportivas es de 30 días. Al finalizar este plazo, los bonos no liberados se eliminan automáticamente de la cuenta."}',
+             'value_fr' => '{"0":"Pour le casino, la période de mise est généralement de 7 jours à partir du moment où le bonus est crédité, tandis que pour les paris sportifs, elle est de 30 jours. Passé ce délai, tout bonus non libéré est automatiquement retiré du compte."}',
+             'value_pt' => '{"0":"No cassino, o prazo de apostas é geralmente de 7 dias a partir do momento em que o bônus é creditado, enquanto para as apostas esportivas é de 30 dias. Após esse período, qualquer bônus não liberado é automaticamente removido da conta."}',
              'order' => 14
             ]
         );
@@ -215,11 +215,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'p',
-             'value_en' => '{"0":"To avoid missing a no-deposit bonus, it’s worth subscribing to the email newsletter, enabling push notifications in the mobile app, and following 1win’s official social media accounts."}',
-             'value_es' => '{"0":"Para no perderte un bono sin depósito, conviene suscribirse al boletín por correo electrónico, activar las notificaciones push en la aplicación móvil y seguir las redes sociales oficiales de 1win."}',
-             'value_fr' => '{"0":"Pour ne pas manquer un bonus sans dépôt, il est conseillé de s’abonner à la newsletter par e-mail, d’activer les notifications push dans l’application mobile et de suivre les réseaux sociaux officiels de 1win."}',
-             'value_pt' => '{"0":"Para não perder um bônus sem depósito, vale a pena assinar a newsletter por e-mail, ativar as notificações push no aplicativo móvel e seguir as redes sociais oficiais da 1win."}',
+             'component' => 'h2',
+                'value_en' => '{"0":"Are there any no deposit bonuses?"}',
+                'value_es' => '{"0":"¿Hay bonos sin depósito?"}',
+                'value_fr' => '{"0":"Existe-t-il des bonus sans dépôt ?"}',
+                'value_pt' => '{"0":"Existem bônus sem depósito?"}',
              'order' => 15
             ]
         );
@@ -229,11 +229,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'h2',
-                'value_en' => '{"0":"What if you are already registered at 1win?"}',
-                'value_es' => '{"0":"¿Qué pasa si ya estás registrado en 1win?"}',
-                'value_fr' => '{"0":"Que se passe-t-il si vous êtes déjà inscrit sur 1win ?"}',
-                'value_pt' => '{"0":"E se você já for registrado na 1win?"}',
+             'component' => 'p',
+             'value_en' => '{"0":"1win does not offer no-deposit bonuses on a permanent basis, but the company regularly runs promotional campaigns during which you can receive small free bets or free spins without making a deposit."}',
+             'value_es' => '{"0":"1win no ofrece bonos sin depósito de forma permanente, pero la empresa organiza regularmente campañas promocionales en las que puedes recibir pequeñas apuestas gratis o giros gratis sin realizar un depósito."}',
+             'value_fr' => '{"0":"1win ne propose pas de bonus sans dépôt de manière permanente, mais l’entreprise organise régulièrement des campagnes promotionnelles durant lesquelles vous pouvez obtenir de petits paris gratuits ou des tours gratuits sans effectuer de dépôt."}',
+             'value_pt' => '{"0":"A 1win não oferece bônus sem depósito de forma permanente, mas a empresa realiza regularmente campanhas promocionais nas quais é possível receber pequenas apostas grátis ou rodadas grátis sem fazer um depósito."}',
              'order' => 16
             ]
         );
@@ -244,10 +244,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"1win does not limit itself to bonuses for new players only. The bookmaker also offers a loyalty program for those who have been playing for a long time. Among such offers, you can enjoy a weekly casino cashback, multiple bet bonuses, seasonal and themed promotions, and individual promo codes for active players."}',
-             'value_es' => '{"0":"1win no se limita únicamente a los bonos para nuevos jugadores. La casa de apuestas también ofrece un programa de fidelidad para quienes llevan tiempo jugando. Entre estas ofertas podrás encontrar un reembolso semanal en el casino, bonos por apuestas múltiples, promociones de temporada y temáticas, así como códigos promocionales individuales para jugadores activos."}',
-             'value_fr' => '{"0":"1win ne se limite pas uniquement aux bonus pour les nouveaux joueurs. Le bookmaker propose également un programme de fidélité pour ceux qui jouent depuis longtemps. Parmi ces offres, vous trouverez un cashback hebdomadaire au casino, des bonus pour les paris combinés, des promotions saisonnières et thématiques, ainsi que des codes promo personnalisés pour les joueurs actifs."}',
-             'value_pt' => '{"0":"A 1win não se limita apenas aos bônus para novos jogadores. A casa de apostas também oferece um programa de fidelidade para aqueles que já jogam há mais tempo. Entre essas ofertas, você poderá aproveitar cashback semanal no cassino, bônus por apostas múltiplas, promoções sazonais e temáticas, além de códigos promocionais individuais para jogadores ativos."}',
+             'value_en' => '{"0":"Such offers are usually provided as part of holiday events, for example, during the New Year promotion or major sporting events such as the World Cup, the Champions League, or the Olympic Games. No-deposit bonuses may also be offered as a personal reward for active users."}',
+             'value_es' => '{"0":"Estas ofertas suelen estar disponibles en el marco de eventos festivos, por ejemplo, durante la promoción de Año Nuevo o en grandes eventos deportivos como la Copa del Mundo, la Liga de Campeones o los Juegos Olímpicos. Los bonos sin depósito también pueden otorgarse como una oferta personalizada para usuarios activos."}',
+             'value_fr' => '{"0":"Ces offres sont généralement proposées dans le cadre d’événements festifs, par exemple lors de la promotion du Nouvel An ou à l’occasion de grands événements sportifs tels que la Coupe du Monde, la Ligue des Champions ou les Jeux Olympiques. Les bonus sans dépôt peuvent également être offerts en tant que proposition personnalisée aux utilisateurs actifs."}',
+             'value_pt' => '{"0":"Essas ofertas geralmente são disponibilizadas durante eventos festivos, por exemplo, na promoção de Ano Novo ou em grandes eventos esportivos como a Copa do Mundo, a Liga dos Campeões ou os Jogos Olímpicos. Os bônus sem depósito também podem ser oferecidos como uma proposta personalizada para usuários ativos."}',
              'order' => 17
             ]
         );
@@ -258,10 +258,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"This is an important advantage for players, as most competitors focus only on welcome offers and rarely reward those who have been using the platform for a long time."}',
-             'value_es' => '{"0":"Esto es una gran ventaja para los jugadores, ya que la mayoría de los competidores se enfocan únicamente en las ofertas de bienvenida y rara vez premian a quienes han estado utilizando la plataforma durante mucho tiempo."}',
-             'value_fr' => '{"0":"C’est un avantage important pour les joueurs, car la plupart des concurrents se concentrent uniquement sur les offres de bienvenue et récompensent rarement ceux qui utilisent la plateforme depuis longtemps."}',
-             'value_pt' => '{"0":"Isso é uma grande vantagem para os jogadores, pois a maioria dos concorrentes foca apenas nas ofertas de boas-vindas e raramente recompensa aqueles que já utilizam a plataforma há muito tempo."}',
+             'value_en' => '{"0":"To avoid missing a no-deposit bonus, it’s worth subscribing to the email newsletter, enabling push notifications in the mobile app, and following 1win’s official social media accounts."}',
+             'value_es' => '{"0":"Para no perderte un bono sin depósito, conviene suscribirse al boletín por correo electrónico, activar las notificaciones push en la aplicación móvil y seguir las redes sociales oficiales de 1win."}',
+             'value_fr' => '{"0":"Pour ne pas manquer un bonus sans dépôt, il est conseillé de s’abonner à la newsletter par e-mail, d’activer les notifications push dans l’application mobile et de suivre les réseaux sociaux officiels de 1win."}',
+             'value_pt' => '{"0":"Para não perder um bônus sem depósito, vale a pena assinar a newsletter por e-mail, ativar as notificações push no aplicativo móvel e seguir as redes sociais oficiais da 1win."}',
              'order' => 18
             ]
         );
@@ -272,10 +272,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'h2',
-                'value_en' => '{"0":"Welcome Bonus"}',
-                'value_es' => '{"0":"Bono de bienvenida"}',
-                'value_fr' => '{"0":"Bonus de bienvenue"}',
-                'value_pt' => '{"0":"Bônus de boas-vindas"}',
+                'value_en' => '{"0":"What if you are already registered at 1win?"}',
+                'value_es' => '{"0":"¿Qué pasa si ya estás registrado en 1win?"}',
+                'value_fr' => '{"0":"Que se passe-t-il si vous êtes déjà inscrit sur 1win ?"}',
+                'value_pt' => '{"0":"E se você já for registrado na 1win?"}',
              'order' => 19
             ]
         );
@@ -286,10 +286,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"The welcome bonus at 1win looks especially attractive compared to other bookmakers. You can receive an incredible 500% bonus on your first deposit. For example, if you deposit $100, you will get a $500 bonus, giving you a total of $600 to play with."}',
-             'value_es' => '{"0":"El bono de bienvenida en 1win resulta especialmente atractivo en comparación con otras casas de apuestas. Puedes obtener un increíble bono del 500% en tu primer depósito. Por ejemplo, si depositas 100 $, recibirás un bono de 500 $, lo que te dará un total de 600 $ para jugar."}',
-             'value_fr' => '{"0":"Le bonus de bienvenue chez 1win est particulièrement attractif par rapport à d’autres bookmakers. Vous pouvez recevoir un incroyable bonus de 500 % sur votre premier dépôt. Par exemple, si vous déposez 100 $, vous recevrez un bonus de 500 $, ce qui vous donnera un total de 600 $ pour jouer."}',
-             'value_pt' => '{"0":"O bônus de boas-vindas da 1win é especialmente atraente em comparação com outras casas de apostas. Você pode receber um incrível bônus de 500% no seu primeiro depósito. Por exemplo, se você depositar US$ 100, receberá um bônus de US$ 500, totalizando US$ 600 para jogar."}',
+             'value_en' => '{"0":"1win does not limit itself to bonuses for new players only. The bookmaker also offers a loyalty program for those who have been playing for a long time. Among such offers, you can enjoy a weekly casino cashback, multiple bet bonuses, seasonal and themed promotions, and individual promo codes for active players."}',
+             'value_es' => '{"0":"1win no se limita únicamente a los bonos para nuevos jugadores. La casa de apuestas también ofrece un programa de fidelidad para quienes llevan tiempo jugando. Entre estas ofertas podrás encontrar un reembolso semanal en el casino, bonos por apuestas múltiples, promociones de temporada y temáticas, así como códigos promocionales individuales para jugadores activos."}',
+             'value_fr' => '{"0":"1win ne se limite pas uniquement aux bonus pour les nouveaux joueurs. Le bookmaker propose également un programme de fidélité pour ceux qui jouent depuis longtemps. Parmi ces offres, vous trouverez un cashback hebdomadaire au casino, des bonus pour les paris combinés, des promotions saisonnières et thématiques, ainsi que des codes promo personnalisés pour les joueurs actifs."}',
+             'value_pt' => '{"0":"A 1win não se limita apenas aos bônus para novos jogadores. A casa de apostas também oferece um programa de fidelidade para aqueles que já jogam há mais tempo. Entre essas ofertas, você poderá aproveitar cashback semanal no cassino, bônus por apostas múltiplas, promoções sazonais e temáticas, além de códigos promocionais individuais para jogadores ativos."}',
              'order' => 20
             ]
         );
@@ -300,10 +300,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"It is worth noting that the maximum first deposit amount eligible for the bonus is $1,025 or the equivalent in your chosen currency."}',
-             'value_es' => '{"0":"Cabe destacar que el importe máximo del primer depósito que puede recibir el bono es de hasta 1.025 $ o el equivalente en la moneda que elijas."}',
-             'value_fr' => '{"0":"Il convient de noter que le montant maximal du premier dépôt éligible au bonus est de 1 025 $ ou l’équivalent dans la devise choisie."}',
-             'value_pt' => '{"0":"Vale lembrar que o valor máximo do primeiro depósito que pode receber o bônus é de até US$ 1.025 ou o equivalente na moeda escolhida."}',
+             'value_en' => '{"0":"This is an important advantage for players, as most competitors focus only on welcome offers and rarely reward those who have been using the platform for a long time."}',
+             'value_es' => '{"0":"Esto es una gran ventaja para los jugadores, ya que la mayoría de los competidores se enfocan únicamente en las ofertas de bienvenida y rara vez premian a quienes han estado utilizando la plataforma durante mucho tiempo."}',
+             'value_fr' => '{"0":"C’est un avantage important pour les joueurs, car la plupart des concurrents se concentrent uniquement sur les offres de bienvenue et récompensent rarement ceux qui utilisent la plateforme depuis longtemps."}',
+             'value_pt' => '{"0":"Isso é uma grande vantagem para os jogadores, pois a maioria dos concorrentes foca apenas nas ofertas de boas-vindas e raramente recompensa aqueles que já utilizam a plataforma há muito tempo."}',
              'order' => 21
             ]
         );
@@ -313,11 +313,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'p',
-             'value_en' => '{"0":"Also, remember that in order to withdraw the bonus funds, you must meet the wagering requirements. This means you need to wager the bonus amount on bets with odds of at least 3.0 for sports betting or on slots with an RTP of 95% or higher."}',
-             'value_es' => '{"0":"Además, recuerda que para poder retirar los fondos del bono, debes cumplir con los requisitos de apuesta. Esto significa que debes apostar el importe del bono en apuestas con una cuota mínima de 3.0 para apuestas deportivas o en tragamonedas con un RTP de al menos 95%."}',
-             'value_fr' => '{"0":"N’oubliez pas également que pour pouvoir retirer les fonds du bonus, vous devez respecter les conditions de mise. Cela signifie que vous devez miser le montant du bonus sur des paris avec une cote minimale de 3.0 pour les paris sportifs ou sur des machines à sous avec un RTP d’au moins 95 %."}',
-             'value_pt' => '{"0":"Também é importante destacar que, para poder sacar os fundos do bônus, é necessário cumprir os requisitos de aposta. Isso significa que você deve apostar o valor do bônus em apostas com odds de pelo menos 3.0 para apostas esportivas ou em slots com RTP a partir de 95%."}',
+             'component' => 'h2',
+                'value_en' => '{"0":"Welcome Bonus"}',
+                'value_es' => '{"0":"Bono de bienvenida"}',
+                'value_fr' => '{"0":"Bonus de bienvenue"}',
+                'value_pt' => '{"0":"Bônus de boas-vindas"}',
              'order' => 22
             ]
         );
@@ -327,11 +327,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'img',
-                'value_en' => '{"0":"img-3.webp"}',
-                'value_es' => '{"0":"img-3.webp"}',
-                'value_fr' => '{"0":"img-3.webp"}',
-                'value_pt' => '{"0":"img-3.webp"}',
+             'component' => 'p',
+             'value_en' => '{"0":"The welcome bonus at 1win looks especially attractive compared to other bookmakers. You can receive an incredible 500% bonus on your first deposit. For example, if you deposit $100, you will get a $500 bonus, giving you a total of $600 to play with."}',
+             'value_es' => '{"0":"El bono de bienvenida en 1win resulta especialmente atractivo en comparación con otras casas de apuestas. Puedes obtener un increíble bono del 500% en tu primer depósito. Por ejemplo, si depositas 100 $, recibirás un bono de 500 $, lo que te dará un total de 600 $ para jugar."}',
+             'value_fr' => '{"0":"Le bonus de bienvenue chez 1win est particulièrement attractif par rapport à d’autres bookmakers. Vous pouvez recevoir un incroyable bonus de 500 % sur votre premier dépôt. Par exemple, si vous déposez 100 $, vous recevrez un bonus de 500 $, ce qui vous donnera un total de 600 $ pour jouer."}',
+             'value_pt' => '{"0":"O bônus de boas-vindas da 1win é especialmente atraente em comparação com outras casas de apostas. Você pode receber um incrível bônus de 500% no seu primeiro depósito. Por exemplo, se você depositar US$ 100, receberá um bônus de US$ 500, totalizando US$ 600 para jogar."}',
              'order' => 23
             ]
         );
@@ -341,11 +341,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'h2',
-                'value_en' => '{"0":"Casino Cashback"}',
-                'value_es' => '{"0":"Reembolso de Casino"}',
-                'value_fr' => '{"0":"Cashback de Casino"}',
-                'value_pt' => '{"0":"Cashback de Cassino"}',
+             'component' => 'p',
+             'value_en' => '{"0":"It is worth noting that the maximum first deposit amount eligible for the bonus is $1,025 or the equivalent in your chosen currency."}',
+             'value_es' => '{"0":"Cabe destacar que el importe máximo del primer depósito que puede recibir el bono es de hasta 1.025 $ o el equivalente en la moneda que elijas."}',
+             'value_fr' => '{"0":"Il convient de noter que le montant maximal du premier dépôt éligible au bonus est de 1 025 $ ou l’équivalent dans la devise choisie."}',
+             'value_pt' => '{"0":"Vale lembrar que o valor máximo do primeiro depósito que pode receber o bônus é de até US$ 1.025 ou o equivalente na moeda escolhida."}',
              'order' => 24
             ]
         );
@@ -356,10 +356,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"Sometimes your bet might not win. But there’s no need to worry too much about the lost funds, because 1win has you covered for such situations. For casino enthusiasts, there is a weekly cashback of up to 30%. It is calculated based on the total amount lost during the week. The minimum threshold to participate is $10."}',
-             'value_es' => '{"0":"A veces, tu apuesta puede no salir ganadora. Pero no hay que preocuparse demasiado por el dinero perdido, ya que 1win ha pensado en estas situaciones. Para los amantes de los juegos de casino, hay un reembolso semanal de hasta el 30%. Se calcula sobre el total perdido durante la semana. El umbral mínimo para participar es de 10 $."}',
-             'value_fr' => '{"0":"Il arrive parfois que votre pari ne passe pas. Mais il n’y a pas lieu de trop s’inquiéter pour l’argent perdu, car 1win a prévu ce genre de situations. Pour les amateurs de jeux de casino, un cashback hebdomadaire allant jusqu’à 30 % est proposé. Il est calculé sur le montant total perdu au cours de la semaine. Le seuil minimum de participation est de 10 $."}',
-             'value_pt' => '{"0":"Às vezes, a sua aposta pode não ser vencedora. Mas não é preciso se preocupar muito com o dinheiro perdido, pois a 1win pensou nessas situações. Para os fãs de jogos de cassino, existe um cashback semanal de até 30%. Ele é calculado com base no valor total perdido durante a semana. O valor mínimo para participar é de US$ 10."}',
+             'value_en' => '{"0":"Also, remember that in order to withdraw the bonus funds, you must meet the wagering requirements. This means you need to wager the bonus amount on bets with odds of at least 3.0 for sports betting or on slots with an RTP of 95% or higher."}',
+             'value_es' => '{"0":"Además, recuerda que para poder retirar los fondos del bono, debes cumplir con los requisitos de apuesta. Esto significa que debes apostar el importe del bono en apuestas con una cuota mínima de 3.0 para apuestas deportivas o en tragamonedas con un RTP de al menos 95%."}',
+             'value_fr' => '{"0":"N’oubliez pas également que pour pouvoir retirer les fonds du bonus, vous devez respecter les conditions de mise. Cela signifie que vous devez miser le montant du bonus sur des paris avec une cote minimale de 3.0 pour les paris sportifs ou sur des machines à sous avec un RTP d’au moins 95 %."}',
+             'value_pt' => '{"0":"Também é importante destacar que, para poder sacar os fundos do bônus, é necessário cumprir os requisitos de aposta. Isso significa que você deve apostar o valor do bônus em apostas com odds de pelo menos 3.0 para apostas esportivas ou em slots com RTP a partir de 95%."}',
              'order' => 25
             ]
         );
@@ -369,11 +369,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'p',
-             'value_en' => '{"0":"The great thing about this promotion is that the cashback does not require wagering. You can withdraw it immediately or use it for more bets. This offer can be especially useful, as it gives you a second chance to win even after an unlucky week."}',
-             'value_es' => '{"0":"Lo mejor de esta promoción es que el reembolso no requiere requisitos de apuesta. Puedes retirarlo de inmediato o usarlo para seguir apostando. Esta oferta resulta especialmente útil, ya que te da una segunda oportunidad de ganar incluso después de una semana poco afortunada."}',
-             'value_fr' => '{"0":"L’avantage de cette promotion est que le cashback ne nécessite aucun pari supplémentaire. Vous pouvez le retirer immédiatement ou l’utiliser pour placer de nouvelles mises. Cette offre est particulièrement utile, car elle vous donne une seconde chance de gagner même après une semaine infructueuse."}',
-             'value_pt' => '{"0":"O diferencial dessa promoção é que o cashback não exige rollover. Você pode sacá-lo imediatamente ou usá-lo para fazer novas apostas. Essa oferta é especialmente útil, pois oferece uma segunda chance de ganhar mesmo após uma semana ruim."}',
+             'component' => 'img',
+                'value_en' => '{"0":"img-3.webp"}',
+                'value_es' => '{"0":"img-3.webp"}',
+                'value_fr' => '{"0":"img-3.webp"}',
+                'value_pt' => '{"0":"img-3.webp"}',
              'order' => 26
             ]
         );
@@ -383,11 +383,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'img',
-                'value_en' => '{"0":"img-4.webp"}',
-                'value_es' => '{"0":"img-4.webp"}',
-                'value_fr' => '{"0":"img-4.webp"}',
-                'value_pt' => '{"0":"img-4.webp"}',
+             'component' => 'h2',
+                'value_en' => '{"0":"Casino Cashback"}',
+                'value_es' => '{"0":"Reembolso de Casino"}',
+                'value_fr' => '{"0":"Cashback de Casino"}',
+                'value_pt' => '{"0":"Cashback de Cassino"}',
              'order' => 27
             ]
         );
@@ -397,11 +397,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'h2',
-                'value_en' => '{"0":"Bonus on a multiple bet"}',
-                'value_es' => '{"0":"Bono por apuesta combinada"}',
-                'value_fr' => '{"0":"Bonus sur un pari combiné"}',
-                'value_pt' => '{"0":"Bônus em aposta múltipla"}',
+             'component' => 'p',
+             'value_en' => '{"0":"Sometimes your bet might not win. But there’s no need to worry too much about the lost funds, because 1win has you covered for such situations. For casino enthusiasts, there is a weekly cashback of up to 30%. It is calculated based on the total amount lost during the week. The minimum threshold to participate is $10."}',
+             'value_es' => '{"0":"A veces, tu apuesta puede no salir ganadora. Pero no hay que preocuparse demasiado por el dinero perdido, ya que 1win ha pensado en estas situaciones. Para los amantes de los juegos de casino, hay un reembolso semanal de hasta el 30%. Se calcula sobre el total perdido durante la semana. El umbral mínimo para participar es de 10 $."}',
+             'value_fr' => '{"0":"Il arrive parfois que votre pari ne passe pas. Mais il n’y a pas lieu de trop s’inquiéter pour l’argent perdu, car 1win a prévu ce genre de situations. Pour les amateurs de jeux de casino, un cashback hebdomadaire allant jusqu’à 30 % est proposé. Il est calculé sur le montant total perdu au cours de la semaine. Le seuil minimum de participation est de 10 $."}',
+             'value_pt' => '{"0":"Às vezes, a sua aposta pode não ser vencedora. Mas não é preciso se preocupar muito com o dinheiro perdido, pois a 1win pensou nessas situações. Para os fãs de jogos de cassino, existe um cashback semanal de até 30%. Ele é calculado com base no valor total perdido durante a semana. O valor mínimo para participar é de US$ 10."}',
              'order' => 28
             ]
         );
@@ -412,10 +412,10 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ['key' => '1win',
              'bookmaker_id' => 4,
              'component' => 'p',
-             'value_en' => '{"0":"Fans of accumulator bets will appreciate the Bonus on a Multiple Bet promotion. This offer increases your winnings by a percentage based on the number of events in your bet slip. The more matches you include, the higher your bonus can be, reaching up to 30%."}',
-             'value_es' => '{"0":"A los aficionados a las apuestas combinadas les gustará la promoción Bonus on a Multiple Bet. Esta oferta aumenta tus ganancias en un porcentaje según la cantidad de eventos en tu boleto. Cuantos más partidos elijas, mayor será tu bono, que puede alcanzar hasta el 30%."}',
-             'value_fr' => '{"0":"Les amateurs de paris combinés apprécieront la promotion Bonus on a Multiple Bet. Cette offre augmente vos gains d’un pourcentage basé sur le nombre d’événements dans votre coupon. Plus vous sélectionnez de matchs, plus votre bonus sera élevé, pouvant atteindre 30 %."}',
-             'value_pt' => '{"0":"Os fãs de apostas acumuladas vão gostar da promoção Bonus on a Multiple Bet. Esta oferta aumenta seus ganhos em uma porcentagem baseada no número de eventos no seu cupom. Quanto mais partidas você incluir, maior será seu bônus, podendo chegar a 30%."}',
+             'value_en' => '{"0":"The great thing about this promotion is that the cashback does not require wagering. You can withdraw it immediately or use it for more bets. This offer can be especially useful, as it gives you a second chance to win even after an unlucky week."}',
+             'value_es' => '{"0":"Lo mejor de esta promoción es que el reembolso no requiere requisitos de apuesta. Puedes retirarlo de inmediato o usarlo para seguir apostando. Esta oferta resulta especialmente útil, ya que te da una segunda oportunidad de ganar incluso después de una semana poco afortunada."}',
+             'value_fr' => '{"0":"L’avantage de cette promotion est que le cashback ne nécessite aucun pari supplémentaire. Vous pouvez le retirer immédiatement ou l’utiliser pour placer de nouvelles mises. Cette offre est particulièrement utile, car elle vous donne une seconde chance de gagner même après une semaine infructueuse."}',
+             'value_pt' => '{"0":"O diferencial dessa promoção é que o cashback não exige rollover. Você pode sacá-lo imediatamente ou usá-lo para fazer novas apostas. Essa oferta é especialmente útil, pois oferece uma segunda chance de ganhar mesmo após uma semana ruim."}',
              'order' => 29
             ]
         );
@@ -425,11 +425,11 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
-             'component' => 'p',
-             'value_en' => '{"0":"To participate, you need to place a bet on at least five events, each with odds of 1.3 or higher. For example, a winning accumulator with 7 events will add a 15% bonus to your net winnings."}',
-             'value_es' => '{"0":"Para participar, debes apostar en al menos cinco eventos, cada uno con una cuota mínima de 1.3. Por ejemplo, una apuesta combinada ganadora con 7 eventos otorga un bono del 15% sobre la ganancia neta."}',
-             'value_fr' => '{"0":"Pour participer, vous devez placer un pari sur au moins cinq événements, chacun avec une cote d’au moins 1,3. Par exemple, un combiné gagnant de 7 événements vous donnera un bonus de 15 % sur les gains nets."}',
-             'value_pt' => '{"0":"Para participar, é necessário fazer uma aposta com pelo menos cinco eventos, cada um com odds de 1,3 ou mais. Por exemplo, um acumulador de 7 eventos vencedor oferece um bônus de 15% sobre o lucro líquido."}',
+             'component' => 'img',
+                'value_en' => '{"0":"img-4.webp"}',
+                'value_es' => '{"0":"img-4.webp"}',
+                'value_fr' => '{"0":"img-4.webp"}',
+                'value_pt' => '{"0":"img-4.webp"}',
              'order' => 30
             ]
         );
@@ -439,12 +439,208 @@ class Bookmaker1winPromoCodesSeeder extends Seeder
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
+             'component' => 'h2',
+                'value_en' => '{"0":"Bonus on a multiple bet"}',
+                'value_es' => '{"0":"Bono por apuesta combinada"}',
+                'value_fr' => '{"0":"Bonus sur un pari combiné"}',
+                'value_pt' => '{"0":"Bônus em aposta múltipla"}',
+             'order' => 31
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 32
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'p',
+             'value_en' => '{"0":"Fans of accumulator bets will appreciate the Bonus on a Multiple Bet promotion. This offer increases your winnings by a percentage based on the number of events in your bet slip. The more matches you include, the higher your bonus can be, reaching up to 30%."}',
+             'value_es' => '{"0":"A los aficionados a las apuestas combinadas les gustará la promoción Bonus on a Multiple Bet. Esta oferta aumenta tus ganancias en un porcentaje según la cantidad de eventos en tu boleto. Cuantos más partidos elijas, mayor será tu bono, que puede alcanzar hasta el 30%."}',
+             'value_fr' => '{"0":"Les amateurs de paris combinés apprécieront la promotion Bonus on a Multiple Bet. Cette offre augmente vos gains d’un pourcentage basé sur le nombre d’événements dans votre coupon. Plus vous sélectionnez de matchs, plus votre bonus sera élevé, pouvant atteindre 30 %."}',
+             'value_pt' => '{"0":"Os fãs de apostas acumuladas vão gostar da promoção Bonus on a Multiple Bet. Esta oferta aumenta seus ganhos em uma porcentagem baseada no número de eventos no seu cupom. Quanto mais partidas você incluir, maior será seu bônus, podendo chegar a 30%."}',
+             'order' => 32
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 33
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'p',
+             'value_en' => '{"0":"To participate, you need to place a bet on at least five events, each with odds of 1.3 or higher. For example, a winning accumulator with 7 events will add a 15% bonus to your net winnings."}',
+             'value_es' => '{"0":"Para participar, debes apostar en al menos cinco eventos, cada uno con una cuota mínima de 1.3. Por ejemplo, una apuesta combinada ganadora con 7 eventos otorga un bono del 15% sobre la ganancia neta."}',
+             'value_fr' => '{"0":"Pour participer, vous devez placer un pari sur au moins cinq événements, chacun avec une cote d’au moins 1,3. Par exemple, un combiné gagnant de 7 événements vous donnera un bonus de 15 % sur les gains nets."}',
+             'value_pt' => '{"0":"Para participar, é necessário fazer uma aposta com pelo menos cinco eventos, cada um com odds de 1,3 ou mais. Por exemplo, um acumulador de 7 eventos vencedor oferece um bônus de 15% sobre o lucro líquido."}',
+             'order' => 33
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 34
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
              'component' => 'img',
                 'value_en' => '{"0":"img-2.webp"}',
                 'value_es' => '{"0":"img-2.webp"}',
                 'value_fr' => '{"0":"img-2.webp"}',
                 'value_pt' => '{"0":"img-2.webp"}',
-             'order' => 31
+             'order' => 34
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 35
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'h2',
+                'value_en' => '{"0":"Frequently Asked Questions"}',
+                'value_es' => '{"0":"Preguntas Frecuentes"}',
+                'value_fr' => '{"0":"Questions Fréquemment Posées"}',
+                'value_pt' => '{"0":"Perguntas Frequentes"}',
+             'order' => 35
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 36
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'h3',
+             'value_en' => '{"0":"Where do I enter the promo code when registering on 1win?"}',
+             'value_es' => '{"0":"¿Dónde se introduce el código promocional al registrarse en 1win?"}',
+             'value_fr' => '{"0":"Où saisir le code promo lors de l’inscription sur 1win ?"}',
+             'value_pt' => '{"0":"Onde inserir o código promocional ao se registrar no 1win?"}',
+             'order' => 36
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 37
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'p',
+             'value_en' => '{"0":"The promo code is entered in the special field when filling out the registration form, before confirming the creation of the account."}',
+             'value_es' => '{"0":"El código promocional se introduce en el campo especial al completar el formulario de registro, antes de confirmar la creación de la cuenta."}',
+             'value_fr' => '{"0":"Le code promo doit être saisi dans le champ prévu à cet effet lors du remplissage du formulaire d’inscription, avant de confirmer la création du compte."}',
+             'value_pt' => '{"0":"O código promocional deve ser inserido no campo especial ao preencher o formulário de registro, antes de confirmar a criação da conta."}',
+             'order' => 37
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 38
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'h3',
+             'value_en' => '{"0":"Can I add a promo code after creating an account?"}',
+             'value_es' => '{"0":"¿Se puede añadir un código promocional después de crear la cuenta?"}',
+             'value_fr' => '{"0":"Peut-on ajouter un code promo après la création du compte ?"}',
+             'value_pt' => '{"0":"É possível adicionar um código promocional após criar a conta?"}',
+             'order' => 38
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 39
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'p',
+             'value_en' => '{"0":"No, the promo code can only be activated during the registration process."}',
+             'value_es' => '{"0":"No, el código promocional solo se puede activar durante el proceso de registro."}',
+             'value_fr' => '{"0":"Non, le code promo ne peut être activé que lors du processus d’inscription."}',
+             'value_pt' => '{"0":"Não, o código promocional só pode ser ativado durante o processo de registro."}',
+             'order' => 39
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 40
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'h3',
+             'value_en' => '{"0":"What is the minimum deposit to activate the bonus on 1win?"}',
+             'value_es' => '{"0":"¿Cuál es el depósito mínimo para activar el bono en 1win?"}',
+             'value_fr' => '{"0":"Quel est le dépôt minimum pour activer le bonus sur 1win ?"}',
+             'value_pt' => '{"0":"Qual é o depósito mínimo para ativar o bônus na 1win?"}',
+             'order' => 40
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 41
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'p',
+             'value_en' => '{"0":"It is usually $1 or the equivalent in the chosen currency."}',
+             'value_es' => '{"0":"Normalmente es de 1 $ o el equivalente en la moneda elegida."}',
+             'value_fr' => '{"0":"C’est généralement 1 $ ou l’équivalent dans la devise choisie."}',
+             'value_pt' => '{"0":"Geralmente é de US$ 1 ou o equivalente na moeda escolhida."}',
+             'order' => 41
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 42
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'h3',
+             'value_en' => '{"0":"What is the wagering period for bonuses?"}',
+             'value_es' => '{"0":"¿Cuál es el plazo de apuesta de los bonos?"}',
+             'value_fr' => '{"0":"Quel est le délai de mise des bonus ?"}',
+             'value_pt' => '{"0":"Qual é o prazo de apostas dos bônus?"}',
+             'order' => 42
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 43
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'p',
+             'value_en' => '{"0":"For the casino, it is 7 days; for sports betting, it is 30 days from the moment the bonus is received."}',
+             'value_es' => '{"0":"Para el casino es de 7 días; para las apuestas deportivas, de 30 días desde el momento en que se recibe el bono."}',
+             'value_fr' => '{"0":"Pour le casino, il est de 7 jours ; pour les paris sportifs, de 30 jours à partir du moment où le bonus est reçu."}',
+             'value_pt' => '{"0":"Para o cassino, é de 7 dias; para as apostas esportivas, é de 30 dias a partir do momento em que o bônus é recebido."}',
+             'order' => 43
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 44
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'h3',
+             'value_en' => '{"0":"Can bonus funds be withdrawn without wagering?"}',
+             'value_es' => '{"0":"¿Se pueden retirar los fondos de bonificación sin apostar?"}',
+             'value_fr' => '{"0":"Peut-on retirer les fonds bonus sans les miser ?"}',
+             'value_pt' => '{"0":"É possível sacar os fundos de bônus sem apostar?"}',
+             'order' => 44
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 45
+            ],
+            ['key' => '1win',
+             'bookmaker_id' => 4,
+             'component' => 'p',
+             'value_en' => '{"0":"No, you must first fully meet the wagering requirements."}',
+             'value_es' => '{"0":"No, primero debe cumplir completamente con los requisitos de apuesta."}',
+             'value_fr' => '{"0":"Non, il faut d’abord remplir entièrement les conditions de mise."}',
+             'value_pt' => '{"0":"Não, é necessário cumprir totalmente os requisitos de aposta primeiro."}',
+             'order' => 45
             ]
         );
     }

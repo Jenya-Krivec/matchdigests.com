@@ -117,11 +117,11 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
-             'component' => 'h2',
-                'value_en' => '{"0":"Are there any no deposit bonuses?"}',
-                'value_es' => '{"0":"¿Hay bonos sin depósito?"}',
-                'value_fr' => '{"0":"Existe-t-il des bonus sans dépôt ?"}',
-                'value_pt' => '{"0":"Existem bônus sem depósito?"}',
+             'component' => 'p',
+             'value_en' => '{"0":"At Mostbet, wagering requirements depend on the type of bonus. For casino bonuses, the bonus amount must be wagered with a x60 multiplier within 7 days from the moment it is credited. Only bets on games included in the eligible list count towards wagering."}',
+             'value_es' => '{"0":"En Mostbet, los requisitos de apuesta dependen del tipo de bono. Para los bonos de casino, el importe del bono debe apostarse con un multiplicador x60 dentro de los 7 días desde que se acredita. Solo cuentan las apuestas en juegos incluidos en la lista de elegibles para la apuesta."}',
+             'value_fr' => '{"0":"Chez Mostbet, les conditions de mise dépendent du type de bonus. Pour les bonus de casino, le montant du bonus doit être misé avec un multiplicateur x60 dans les 7 jours suivant son crédit. Seules les mises sur les jeux figurant sur la liste éligible sont prises en compte."}',
+             'value_pt' => '{"0":"Na Mostbet, os requisitos de apostas dependem do tipo de bônus. Para bônus de cassino, o valor do bônus deve ser apostado com um multiplicador x60 dentro de 7 dias a partir do momento em que é creditado. Apenas as apostas em jogos incluídos na lista elegível contam para o requisito de aposta."}',
              'order' => 8
             ]
         );
@@ -132,10 +132,10 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
              'component' => 'p',
-             'value_en' => '{"0":"At the time of preparing this review, the company does not offer any official no-deposit bonuses. However, this does not mean it is impossible to receive a bonus without directly funding your account. MOSTBET occasionally runs special promotions tied to major sporting events, during which players can receive free sports bets or free spins in the casino. Such offers are usually available only to registered and active players and have a limited validity period."}',
-             'value_es' => '{"0":"En el momento de preparar esta reseña, la empresa no ofrece bonos sin depósito oficiales. Sin embargo, esto no significa que sea imposible obtener un bono sin recargar la cuenta. MOSTBET a veces organiza promociones especiales vinculadas a grandes eventos deportivos, durante las cuales los jugadores pueden recibir apuestas deportivas gratuitas o giros gratis en el casino. Estas ofertas suelen estar disponibles solo para jugadores registrados y activos, y tienen un período de validez limitado."}',
-             'value_fr' => '{"0":"Au moment de la rédaction de cet avis, la société ne propose pas de bonus sans dépôt officiels. Cependant, cela ne signifie pas qu’il est impossible d’obtenir un bonus sans créditer directement votre compte. MOSTBET organise parfois des promotions spéciales liées à de grands événements sportifs, au cours desquelles les joueurs peuvent recevoir des paris sportifs gratuits ou des tours gratuits au casino. Ces offres sont généralement réservées aux joueurs inscrits et actifs, et ont une durée de validité limitée."}',
-             'value_pt' => '{"0":"No momento da elaboração desta análise, a empresa não oferece bônus sem depósito oficiais. No entanto, isso não significa que seja impossível receber um bônus sem adicionar fundos à conta. A MOSTBET ocasionalmente realiza promoções especiais relacionadas a grandes eventos esportivos, durante as quais os jogadores podem receber apostas esportivas gratuitas ou rodadas grátis no cassino. Essas ofertas geralmente estão disponíveis apenas para jogadores registrados e ativos e possuem um período de validade limitado."}',
+             'value_en' => '{"0":"For sports bets, the bonus must be wagered with a x5 multiplier on singles or accumulators with odds of at least 1.40 within 30 days from receipt. If the wagering conditions are not met within the specified period, the bonus funds and winnings from them are canceled."}',
+             'value_es' => '{"0":"Para las apuestas deportivas, el bono debe apostarse con un multiplicador x5 en apuestas simples o combinadas con cuotas de al menos 1.40 dentro de los 30 días desde la recepción. Si no se cumplen las condiciones de apuesta dentro del plazo establecido, los fondos del bono y las ganancias derivadas se cancelan."}',
+             'value_fr' => '{"0":"Pour les paris sportifs, le bonus doit être misé avec un multiplicateur x5 sur des paris simples ou combinés avec des cotes d’au moins 1,40 dans les 30 jours suivant la réception. Si les conditions de mise ne sont pas remplies dans le délai imparti, les fonds du bonus et les gains en découlant sont annulés."}',
+             'value_pt' => '{"0":"Para apostas esportivas, o bônus deve ser apostado com um multiplicador x5 em apostas simples ou acumuladas com odds de pelo menos 1,40 dentro de 30 dias após o recebimento. Se as condições de apostas não forem cumpridas dentro do prazo estabelecido, os fundos do bônus e os ganhos provenientes dele serão cancelados."}',
              'order' => 9
             ]
         );
@@ -146,10 +146,10 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
              'component' => 'h2',
-                'value_en' => '{"0":"What if you are already registered at MOSTBET?"}',
-                'value_es' => '{"0":"¿Qué pasa si ya estás registrado en MOSTBET?"}',
-                'value_fr' => '{"0":"Que se passe-t-il si vous êtes déjà inscrit sur MOSTBET ?"}',
-                'value_pt' => '{"0":"E se você já for registrado na MOSTBET?"}',
+                'value_en' => '{"0":"Are there any no deposit bonuses?"}',
+                'value_es' => '{"0":"¿Hay bonos sin depósito?"}',
+                'value_fr' => '{"0":"Existe-t-il des bonus sans dépôt ?"}',
+                'value_pt' => '{"0":"Existem bônus sem depósito?"}',
              'order' => 10
             ]
         );
@@ -160,16 +160,44 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
              'component' => 'p',
-             'value_en' => '{"0":"Unlike many bookmakers who focus solely on attracting new players, MOSTBET actively supports its already registered customers through its bonus policy. They have access to:"}',
-             'value_es' => '{"0":"A diferencia de muchas casas de apuestas que se centran únicamente en atraer nuevos jugadores, MOSTBET apoya activamente a sus clientes ya registrados con su política de bonificaciones. Ellos tienen acceso a:"}',
-             'value_fr' => '{"0":"Contrairement à de nombreux bookmakers qui se concentrent uniquement sur l’acquisition de nouveaux joueurs, MOSTBET soutient activement ses clients déjà inscrits grâce à sa politique de bonus. Ils ont accès à :"}',
-             'value_pt' => '{"0":"Ao contrário de muitas casas de apostas que se concentram apenas em atrair novos jogadores, a MOSTBET apoia ativamente os seus clientes já registados através da sua política de bónus. Eles têm acesso a:"}',
+             'value_en' => '{"0":"At the time of preparing this review, the company does not offer any official no-deposit bonuses. However, this does not mean it is impossible to receive a bonus without directly funding your account. MOSTBET occasionally runs special promotions tied to major sporting events, during which players can receive free sports bets or free spins in the casino. Such offers are usually available only to registered and active players and have a limited validity period."}',
+             'value_es' => '{"0":"En el momento de preparar esta reseña, la empresa no ofrece bonos sin depósito oficiales. Sin embargo, esto no significa que sea imposible obtener un bono sin recargar la cuenta. MOSTBET a veces organiza promociones especiales vinculadas a grandes eventos deportivos, durante las cuales los jugadores pueden recibir apuestas deportivas gratuitas o giros gratis en el casino. Estas ofertas suelen estar disponibles solo para jugadores registrados y activos, y tienen un período de validez limitado."}',
+             'value_fr' => '{"0":"Au moment de la rédaction de cet avis, la société ne propose pas de bonus sans dépôt officiels. Cependant, cela ne signifie pas qu’il est impossible d’obtenir un bonus sans créditer directement votre compte. MOSTBET organise parfois des promotions spéciales liées à de grands événements sportifs, au cours desquelles les joueurs peuvent recevoir des paris sportifs gratuits ou des tours gratuits au casino. Ces offres sont généralement réservées aux joueurs inscrits et actifs, et ont une durée de validité limitée."}',
+             'value_pt' => '{"0":"No momento da elaboração desta análise, a empresa não oferece bônus sem depósito oficiais. No entanto, isso não significa que seja impossível receber um bônus sem adicionar fundos à conta. A MOSTBET ocasionalmente realiza promoções especiais relacionadas a grandes eventos esportivos, durante as quais os jogadores podem receber apostas esportivas gratuitas ou rodadas grátis no cassino. Essas ofertas geralmente estão disponíveis apenas para jogadores registrados e ativos e possuem um período de validade limitado."}',
              'order' => 11
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
              'order' => 12
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'h2',
+                'value_en' => '{"0":"What if you are already registered at MOSTBET?"}',
+                'value_es' => '{"0":"¿Qué pasa si ya estás registrado en MOSTBET?"}',
+                'value_fr' => '{"0":"Que se passe-t-il si vous êtes déjà inscrit sur MOSTBET ?"}',
+                'value_pt' => '{"0":"E se você já for registrado na MOSTBET?"}',
+             'order' => 12
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 13
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'p',
+             'value_en' => '{"0":"Unlike many bookmakers who focus solely on attracting new players, MOSTBET actively supports its already registered customers through its bonus policy. They have access to:"}',
+             'value_es' => '{"0":"A diferencia de muchas casas de apuestas que se centran únicamente en atraer nuevos jugadores, MOSTBET apoya activamente a sus clientes ya registrados con su política de bonificaciones. Ellos tienen acceso a:"}',
+             'value_fr' => '{"0":"Contrairement à de nombreux bookmakers qui se concentrent uniquement sur l’acquisition de nouveaux joueurs, MOSTBET soutient activement ses clients déjà inscrits grâce à sa politique de bonus. Ils ont accès à :"}',
+             'value_pt' => '{"0":"Ao contrário de muitas casas de apostas que se concentram apenas em atrair novos jogadores, a MOSTBET apoia ativamente os seus clientes já registados através da sua política de bónus. Eles têm acesso a:"}',
+             'order' => 13
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 14
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -194,12 +222,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
                              "2":"Bónus por série de derrotas — para quem está numa maré de azar. Se perder 20 apostas seguidas, pode receber um bónus significativo de até 500 €.",
                              "3":"Cashback VIP — programa de fidelidade multinível onde é possível subir de nível e aumentar a percentagem de cashback até 11%.",
                              "4":"Promoções para feriados e eventos desportivos — bónus adicionais e apostas grátis para finais da Liga dos Campeões, Copas do Mundo ou grandes lutas de boxe e MMA."}',
-             'order' => 12
+             'order' => 14
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 13
+             'order' => 15
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -208,12 +236,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
                 'value_es' => '{"0":"Bono por Primer Depósito"}',
                 'value_fr' => '{"0":"Bonus de Premier Dépôt"}',
                 'value_pt' => '{"0":"Bônus de Primeiro Depósito"}',
-             'order' => 13
+             'order' => 15
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 14
+             'order' => 16
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -222,12 +250,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
              'value_es' => '{"0":"Este es un bono de bienvenida clásico para nuevos jugadores que te permite comenzar a jugar con un bankroll más grande. Al registrarte y realizar tu primer depósito, recibes un 100 % adicional acreditado en tu cuenta de bono."}',
              'value_fr' => '{"0":"Il s’agit d’un bonus de bienvenue classique pour les nouveaux joueurs, qui vous permet de commencer à jouer avec une bankroll plus importante. Lors de votre inscription et de votre premier dépôt, vous recevez 100 % supplémentaires crédités sur votre compte bonus."}',
              'value_pt' => '{"0":"Este é um bónus de boas-vindas clássico para novos jogadores, que permite começar a jogar com um bankroll maior. Ao registar-se e efetuar o primeiro depósito, recebe 100 % extra creditados na sua conta de bónus."}',
-             'order' => 14
+             'order' => 16
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 15
+             'order' => 17
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -236,12 +264,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
              'value_es' => '{"0":"Por ejemplo, si depositas 50 USD, recibirás otros 50 USD como bono. El monto máximo del bono para apuestas deportivas suele ser de 130 USD. Para el casino, existe un programa ampliado donde puedes obtener hasta 1500 € + 150 giros gratis, que se acreditan en partes durante los primeros cuatro depósitos."}',
              'value_fr' => '{"0":"Par exemple, si vous déposez 50 USD, vous recevrez 50 USD supplémentaires en bonus. Le montant maximum du bonus pour les paris sportifs est généralement de 130 $. Pour le casino, un programme étendu permet d’obtenir jusqu’à 1500 € + 150 tours gratuits, crédités en plusieurs parties sur les quatre premiers dépôts."}',
              'value_pt' => '{"0":"Por exemplo, se depositar 50 USD, receberá mais 50 USD como bónus. O valor máximo do bónus para apostas desportivas é geralmente de 130 USD. Para o casino, existe um programa alargado onde pode receber até 1500 € + 150 rodadas grátis, creditadas em partes ao longo dos primeiros quatro depósitos."}',
-             'order' => 15
+             'order' => 17
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 16
+             'order' => 18
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -250,12 +278,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
              'value_es' => '{"0":"El requisito de apuesta para el bono de deportes es ×5 en forma de apuestas combinadas, lo que significa que debes apostar en al menos cinco eventos con una cuota de 1.40 o superior, y para el casino — ×35."}',
              'value_fr' => '{"0":"La condition de mise pour le bonus sportif est de ×5 sous forme de paris combinés, c’est-à-dire que vous devez parier sur au moins cinq événements avec une cote de 1,40 ou plus, et pour le casino — ×35."}',
              'value_pt' => '{"0":"O requisito de aposta para o bónus desportivo é ×5 na forma de apostas múltiplas, ou seja, é necessário apostar em pelo menos cinco eventos com odd de 1.40 ou superior, e para o casino — ×35."}',
-             'order' => 16
+             'order' => 18
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 17
+             'order' => 19
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -264,12 +292,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
                 'value_es' => '{"0":"img-5.webp"}',
                 'value_fr' => '{"0":"img-5.webp"}',
                 'value_pt' => '{"0":"img-5.webp"}',
-             'order' => 17
+             'order' => 19
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 18
+             'order' => 20
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -278,12 +306,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
                 'value_es' => '{"0":"Accumulator BOOSTER"}',
                 'value_fr' => '{"0":"Accumulator BOOSTER"}',
                 'value_pt' => '{"0":"REFORÇO DE COMBINADA"}',
-             'order' => 18
+             'order' => 20
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 19
+             'order' => 21
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -292,12 +320,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
              'value_es' => '{"0":"MOSTBET apuesta por las combinadas, ofreciendo a los jugadores combinaciones de partidos ya preparadas con cuotas mejoradas. En la promoción «ACCUMULATOR BOOSTER», eliges una de las combinadas propuestas. Si gana, MOSTBET añadirá un +10 % a tus ganancias netas."}',
              'value_fr' => '{"0":"MOSTBET mise sur les paris combinés, en proposant aux joueurs des combinaisons de matchs prêtes à l’emploi avec des cotes améliorées. Dans le cadre de la promotion « ACCUMULATOR BOOSTER », vous choisissez l’un des combinés proposés. S’il gagne, MOSTBET ajoutera +10 % à vos gains nets."}',
              'value_pt' => '{"0":"A MOSTBET aposta nos múltiplos, oferecendo aos jogadores combinações de partidas já preparadas com odds melhoradas. Na promoção «REFORÇO DE COMBINADA», escolhe-se um dos acumuladores sugeridos. Se ganhar, a MOSTBET adicionará +10 % aos seus lucros líquidos."}',
-             'order' => 19
+             'order' => 21
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 20
+             'order' => 22
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -306,12 +334,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
              'value_es' => '{"0":"La ventaja de este bono es que no requiere condiciones adicionales ni requisitos de apuesta."}',
              'value_fr' => '{"0":"L’avantage de ce bonus est qu’il ne nécessite aucune condition supplémentaire ni exigence de mise."}',
              'value_pt' => '{"0":"A vantagem deste bónus é que não exige condições adicionais nem requisitos de aposta."}',
-             'order' => 20
+             'order' => 22
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 21
+             'order' => 23
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -320,12 +348,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
                 'value_es' => '{"0":"img-3.webp"}',
                 'value_fr' => '{"0":"img-3.webp"}',
                 'value_pt' => '{"0":"img-3.webp"}',
-             'order' => 21
+             'order' => 23
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 22
+             'order' => 24
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -334,12 +362,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
                 'value_es' => '{"0":"Apuesta Sin Riesgo"}',
                 'value_fr' => '{"0":"Pari Sans Risque"}',
                 'value_pt' => '{"0":"APOSTA SEM RISCO"}',
-             'order' => 22
+             'order' => 24
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 23
+             'order' => 25
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -348,12 +376,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
              'value_es' => '{"0":"MOSTBET ofrece la posibilidad de asegurar tu apuesta al 100 % o de forma parcial. Esto significa que, en caso de perder, recibirás de vuelta la parte de la apuesta que hayas asegurado. El seguro tiene un coste que representa un porcentaje del importe apostado, y este porcentaje depende de la cuota del evento."}',
              'value_fr' => '{"0":"MOSTBET propose d’assurer votre pari à 100 % ou partiellement. Cela signifie qu’en cas de perte, vous récupérez la partie de la mise que vous avez assurée. L’assurance coûte un certain pourcentage du montant de la mise, et ce pourcentage dépend de la cote de l’événement."}',
              'value_pt' => '{"0":"A MOSTBET oferece a possibilidade de segurar a sua aposta em 100% ou parcialmente. Isso significa que, em caso de perda, receberá de volta a parte da aposta que foi segurada. O seguro custa uma certa percentagem do valor da aposta, e essa percentagem depende das odds do evento."}',
-             'order' => 23
+             'order' => 25
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 24
+             'order' => 26
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -362,12 +390,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
              'value_es' => '{"0":"Por ejemplo, si apuestas 100 USD a un partido con cuota 2.00 y aseguras el 50 % de la apuesta, en caso de pérdida recibirás 50 USD."}',
              'value_fr' => '{"0":"Par exemple, si vous misez 100 USD sur un match avec une cote de 2.00 et assurez 50 % de la mise, en cas de perte vous récupérerez 50 USD."}',
              'value_pt' => '{"0":"Por exemplo, se apostar 100 USD num jogo com odd de 2.00 e segurar 50% da aposta, em caso de perda receberá 50 USD."}',
-             'order' => 24
+             'order' => 26
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 25
+             'order' => 27
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -376,12 +404,12 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
              'value_es' => '{"0":"Además, MOSTBET a veces organiza promociones «sin riesgo» para partidos concretos. Puedes realizar una apuesta y, si pierdes, la casa te la devuelve en forma de bono para volver a jugar."}',
              'value_fr' => '{"0":"De plus, MOSTBET organise parfois des promotions « sans risque » pour des matchs spécifiques. Vous pouvez placer un pari et, s’il est perdant, le bookmaker vous le rembourse sous forme de bonus pour rejouer."}',
              'value_pt' => '{"0":"Além disso, a MOSTBET ocasionalmente realiza promoções «risk-free» para jogos específicos. Pode fazer uma aposta e, se perder, a casa devolve o valor em forma de bónus para voltar a jogar."}',
-             'order' => 25
+             'order' => 27
             ]
         );
         PromoCode::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 26
+             'order' => 28
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -390,7 +418,161 @@ class BookmakerMOSTBETPromoCodesSeeder extends Seeder
                 'value_es' => '{"0":"img-4.webp"}',
                 'value_fr' => '{"0":"img-4.webp"}',
                 'value_pt' => '{"0":"img-4.webp"}',
-             'order' => 26
+             'order' => 28
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 29
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'h2',
+                'value_en' => '{"0":"Frequently Asked Questions"}',
+                'value_es' => '{"0":"Preguntas Frecuentes"}',
+                'value_fr' => '{"0":"Questions Fréquemment Posées"}',
+                'value_pt' => '{"0":"Perguntas Frequentes"}',
+             'order' => 29
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 30
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'h3',
+             'value_en' => '{"0":"Where do I enter the promo code when registering on Mostbet?"}',
+             'value_es' => '{"0":"¿Dónde se introduce el código promocional al registrarse en Mostbet?"}',
+             'value_fr' => '{"0":"Où saisir le code promo lors de l’inscription sur Mostbet ?"}',
+             'value_pt' => '{"0":"Onde inserir o código promocional ao se registrar no Mostbet?"}',
+             'order' => 30
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 31
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'p',
+             'value_en' => '{"0":"The promo code is entered in the special field while filling out the registration form, before confirming the account creation."}',
+             'value_es' => '{"0":"El código promocional se introduce en el campo especial al completar el formulario de registro, antes de confirmar la creación de la cuenta."}',
+             'value_fr' => '{"0":"Le code promo doit être saisi dans le champ prévu à cet effet lors du remplissage du formulaire d’inscription, avant de confirmer la création du compte."}',
+             'value_pt' => '{"0":"O código promocional deve ser inserido no campo especial ao preencher o formulário de registro, antes de confirmar a criação da conta."}',
+             'order' => 31
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 32
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'h3',
+             'value_en' => '{"0":"Can I add a promo code after creating an account?"}',
+             'value_es' => '{"0":"¿Se puede añadir un código promocional después de crear la cuenta?"}',
+             'value_fr' => '{"0":"Peut-on ajouter un code promo après la création du compte ?"}',
+             'value_pt' => '{"0":"É possível adicionar um código promocional após criar a conta?"}',
+             'order' => 32
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 33
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'p',
+             'value_en' => '{"0":"No, the promo code can only be activated during the registration process."}',
+             'value_es' => '{"0":"No, el código promocional solo puede activarse durante el proceso de registro."}',
+             'value_fr' => '{"0":"Non, le code promo ne peut être activé que lors du processus d’inscription."}',
+             'value_pt' => '{"0":"Não, o código promocional só pode ser ativado durante o processo de registro."}',
+             'order' => 33
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 35
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'h3',
+             'value_en' => '{"0":"What is the minimum deposit to activate the bonus?"}',
+             'value_es' => '{"0":"¿Cuál es el depósito mínimo para activar el bono?"}',
+             'value_fr' => '{"0":"Quel est le dépôt minimum pour activer le bonus ?"}',
+             'value_pt' => '{"0":"Qual é o depósito mínimo para ativar o bônus?"}',
+             'order' => 35
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 36
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'p',
+             'value_en' => '{"0":"The minimum deposit is usually $1 or the equivalent in the chosen currency."}',
+             'value_es' => '{"0":"El depósito mínimo suele ser de $1 o el equivalente en la moneda elegida."}',
+             'value_fr' => '{"0":"Le dépôt minimum est généralement de 1 $ ou l’équivalent dans la devise choisie."}',
+             'value_pt' => '{"0":"O depósito mínimo geralmente é de US$ 1 ou o equivalente na moeda escolhida."}',
+             'order' => 36
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 37
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'h3',
+             'value_en' => '{"0":"What are the wagering periods for bonuses?"}',
+             'value_es' => '{"0":"¿Cuáles son los plazos de apuesta para los bonos?"}',
+             'value_fr' => '{"0":"Quels sont les délais de mise pour les bonus ?"}',
+             'value_pt' => '{"0":"Quais são os prazos de apostas para os bônus?"}',
+             'order' => 37
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 38
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'p',
+             'value_en' => '{"0":"For casino bonuses, the wagering period is 7 days, and for sports bets — 30 days from the moment the bonus is received."}',
+             'value_es' => '{"0":"Para los bonos de casino, el plazo de apuesta es de 7 días, y para las apuestas deportivas, de 30 días desde el momento en que se recibe el bono."}',
+             'value_fr' => '{"0":"Pour les bonus casino, le délai de mise est de 7 jours, et pour les paris sportifs, de 30 jours à partir du moment où le bonus est reçu."}',
+             'value_pt' => '{"0":"Para os bônus de cassino, o prazo de apostas é de 7 dias, e para apostas esportivas, de 30 dias a partir do momento em que o bônus é recebido."}',
+             'order' => 38
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 39
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'h3',
+             'value_en' => '{"0":"Can bonus funds be withdrawn without wagering?"}',
+             'value_es' => '{"0":"¿Se pueden retirar los fondos de bonificación sin apostar?"}',
+             'value_fr' => '{"0":"Peut-on retirer les fonds bonus sans les miser ?"}',
+             'value_pt' => '{"0":"É possível sacar os fundos de bônus sem apostar?"}',
+             'order' => 39
+            ]
+        );
+        PromoCode::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 40
+            ],
+            ['key' => 'mostbet',
+             'bookmaker_id' => 5,
+             'component' => 'p',
+             'value_en' => '{"0":"No, you must first fully meet the wagering requirements."}',
+             'value_es' => '{"0":"No, primero debe cumplir completamente con los requisitos de apuesta."}',
+             'value_fr' => '{"0":"Non, il faut d’abord remplir entièrement les conditions de mise."}',
+             'value_pt' => '{"0":"Não, é necessário cumprir totalmente os requisitos de aposta primeiro."}',
+             'order' => 40
             ]
         );
     }
