@@ -1,4 +1,4 @@
-<div class="flex justify-between flex-col relative rounded-md p-2 mb-2 @if($bookmaker['isLight']) text-black @else text-white @endif"
+<div class="flex justify-between flex-col relative rounded-md p-2 mb-2 shiny-box @if($bookmaker['isLight']) text-black @else text-white @endif"
      style="background: linear-gradient(87deg, {{$bookmaker['logo_color']}} 0%, color-mix(in oklab, {{$bookmaker['logo_color']}}, white 20%) 100%)">
     @if($authorized)
     <a href="{{route('admin.editBookmaker', $bookmaker['key'])}}" title="edit" class="absolute bottom-0 right-0 text-xs bg-gray-300 rounded-br-md rounded-tl-md w-5 h-5 flex justify-center items-center">&#x270F;</a>
@@ -24,8 +24,8 @@
         </div>
 
     </div>
-    <div class="flex justify-between">
-        <div class="sm:flex hidden flex-col justify-around flex-shrink-0 self-center w-52 h-28 rounded-md p-2 mx-1 md:mx-auto" style="background-color: {{$bookmaker['logo_color']}}">
+    <div class="flex justify-between z-10">
+        <div class="sm:flex hidden flex-col justify-around flex-shrink-0 self-stretch w-52 rounded-md p-2 mx-1 md:mx-auto" style="background-color: {{$bookmaker['logo_color']}}">
             <div class="flex justify-between items-center">
                 <p class="text-xs xl:text-base">@lang('index.Rate it')!</p>
                 <div class="flex items-center mx-3">
@@ -42,11 +42,11 @@
                 <input name="rate" value="5" type="checkbox" aria-label="Five stars">
             </div>
         </div>
-        <div class="flex flex-col justify-around w-full self-stretch min-h-28 sm:h-28 rounded-md p-2 mx-1 md:mx-8" style="background-color: {{$bookmaker['logo_color']}}">
-            <div class="font-bold text-xs sm:text-base">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
-            <div class="text-sm lg:text-base">{{$bookmaker['bonus_label_2_'.app()->getLocale()]}}</div>
+        <div class="flex flex-col justify-around w-full self-stretch min-h-28 rounded-md p-2 mx-1 md:mx-8 font-sans" style="background-color: {{$bookmaker['logo_color']}}">
+            <div class="text-xs sm:text-base mb-2">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
+            <div class="text-xs sm:text-base">{{$bookmaker['bonus_label_2_'.app()->getLocale()]}}</div>
         </div>
-        <div class="flex flex-col justify-around flex-shrink-0 self-stretch sm:w-36 sm:h-28 rounded-md p-2 mx-1 md:mx-auto" style="background-color: {{$bookmaker['logo_color']}}">
+        <div class="flex flex-col justify-around flex-shrink-0 self-stretch sm:w-36 rounded-md p-2 mx-1 md:mx-auto" style="background-color: {{$bookmaker['logo_color']}}">
             <div class="text-xs sm:text-sm text-center">@lang('index.Promo code'):</div>
             <div class="flex border-2 @if($bookmaker['isLight']) border-black @else border-white @endif rounded w-min pr-2 mx-auto">
                 <p class="p-1 font-bold text-sm sm:text-md">{{$bookmaker['promo_code']}}</p>

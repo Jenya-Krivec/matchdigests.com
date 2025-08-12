@@ -1,4 +1,4 @@
-<div class="list-disc pl-5 my-4">
+<div class="list-discpl-10 sm:px-14 my-4">
     <ol class="list-disc pl-5 my-4">
     <?php $count = count($bookmaker['payments']) >= 16 ? 16 : count($bookmaker['payments']); ?>
     @for($i = 0; $i < $count; $i++)

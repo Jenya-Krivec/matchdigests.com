@@ -12,4 +12,5 @@ return [
     'Download' => 'Download',
     'Telephone' => 'Telephone',
     'Sports' => 'Sports',
+    'Caption' => 'In this review, we will look at the Android and iOS mobile apps from the bookmaker :bookmaker, their features, and the installation procedure.',
 ];

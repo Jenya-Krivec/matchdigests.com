@@ -12,4 +12,5 @@ return [
     'Download' => 'Télécharger',
     'Telephone' => 'Téléphone',
     'Sports' => 'Sports',
+    'Caption' => 'Dans cet examen, nous allons étudier les applications mobiles Android et iOS du bookmaker :bookmaker, leurs fonctionnalités et la procédure d’installation',
 ];

@@ -9,7 +9,7 @@
 @section('content')
     <main class="pt-16 bg-gray-100 font-serif">
         <!-- Banner -->
-        <div class="flex justify-between flex-col relative p-2 py-8 mb-2 @if($bookmaker['isLight']) text-black @else text-white @endif"
+        <div class="flex justify-between flex-col relative p-2 py-8 mb-2 shiny-box @if($bookmaker['isLight']) text-black @else text-white @endif"
              style="background: linear-gradient(87deg, {{$bookmaker['logo_color']}} 0%, color-mix(in oklab, {{$bookmaker['logo_color']}}, white 20%) 100%)">
             <div class="flex flex-col lg:flex-row justify-center mb-4">
                 <div class="flex justify-center items-center lg:absolute top-10 left-14">
@@ -23,8 +23,8 @@
                     <h1 class="text-base sm:text-4xl font-bold text-center my-2">{{trans('promocode.Promotions and Bonuses', ['bookmaker' => $bookmaker['name']])}}</h1>
                 </div>
             </div>
-            <div class="flex justify-between flex-col sm:flex-row">
-                <div class="flex flex-col justify-around flex-shrink-0 self-center w-full sm:w-52 h-28 rounded-md p-2 m-1 md:mx-auto" style="background-color: {{$bookmaker['logo_color']}}">
+            <div class="flex justify-between flex-col sm:flex-row z-10">
+                <div class="flex flex-col justify-around flex-shrink-0 self-stretch w-full sm:w-52 rounded-md p-2 sm:m-1 md:mx-auto" style="background-color: {{$bookmaker['logo_color']}}">
                     <div class="flex justify-between items-center">
                         <div class="flex items-center mx-3">
                             <div class="text-2xl sm:text-4xl text-center" data-rate-value-id="{{$bookmaker['id']}}">{{$bookmaker['rating']}}</div>
@@ -40,11 +40,11 @@
                         <input name="rate" value="5" type="checkbox" aria-label="Five stars">
                     </div>
                 </div>
-                <div class="flex flex-col justify-around w-full self-stretch min-h-28 sm:h-28 rounded-md p-2 mr-2 mt-1 md:mx-8" style="background-color: {{$bookmaker['logo_color']}}">
-                    <div class="text-sm lg:text-base">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
+                <div class="flex flex-col justify-around w-full self-stretch min-h-28 rounded-md p-2 my-1 sm:m-1 md:mx-8 font-sans" style="background-color: {{$bookmaker['logo_color']}}">
+                    <div class="text-sm lg:text-base mb-2">{{$bookmaker['bonus_label_1_'.app()->getLocale()]}}</div>
                     <div class="text-sm lg:text-base">{{$bookmaker['bonus_label_2_'.app()->getLocale()]}}</div>
                 </div>
-                <div class="flex flex-col justify-around flex-shrink-0 self-stretch sm:w-36 sm:h-28 rounded-md p-2 mx-1 md:mx-auto">
+                <div class="flex flex-col justify-around flex-shrink-0 self-stretch sm:w-36 rounded-md p-2 sm:mx-1 md:mx-auto">
                     <div class="flex justify-center items-center">
                         <span data-url="{{$bookmaker['url']}}" class="h-10 w-20 md:w-36 bg-white text-xs md:text-sm text-black rounded-md hover:bg-yellow-400 flex justify-center items-center cursor-pointer transition-all duration-500 shadow-gray-400">@lang('promocode.Registration')</span>
                     </div>
@@ -61,14 +61,14 @@
         </div>
         <!--Review-->
         <div class="w-full bg-gray-100 px-0 my-4 lg:px-28">
-            <div class="px-2 sm:px-10 py-4 bg-white">
+            <div class="px-2 sm:px-10 py-4 bg-white mx-auto" style="max-width: 1200px">
                 @foreach($page as $component)
                     @include('inc/component_'.$component['component'], ['key' => $component['key'], 'values' => json_decode($component['value_'.app()->getLocale()], true)])
                 @endforeach
             </div>
         </div>
         <div class="w-full bg-gray-100 px-0 mt-4 lg:px-28">
-            <div class="px-2 sm:px-10 py-4 bg-white">
+            <div class="px-2 sm:px-10 py-4 bg-white mx-auto" style="max-width: 1200px">
                 <span data-url="{{$bookmaker['url']}}" class="bg-yellow-400 text-xs sm:text-lg border-2 border-yellow-400 text-black rounded-md hover:bg-white flex justify-center items-center cursor-pointer transition-all w-44 duration-500 my-2 mx-auto px-16 py-2">@lang('promocode.Registration')</span>
             </div>
         </div>

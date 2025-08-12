@@ -42,8 +42,9 @@
 </div>
 <header class="bg-white shadow-sm fixed w-full z-20 border-b-2 border-yellow-400">
     <nav class="flex items-center py-3 w-full">
-        <a href="{{route('index')}}" class="mx-10">
+        <a href="{{route('index')}}" class="mx-2 sm:mx-10 flex justify-center items-center">
             <img src="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" alt="MATCHDIGESTS" class="w-12 logo" width="260" height="100">
+            <p class="text-sm text-black text-center font-bold">MATCHDIGESTS</p>
         </a>
         <!--Change language-->
         <div class="relative align-self-center ml-auto mr-2">
@@ -59,7 +60,7 @@
                     </svg>
                 </span>
             </button>
-            <div class="dropdown-menu absolute right-0 mt-2 py-2 w-48 bg-white border-2 border-yellow-400 rounded-md shadow-lg hidden z-20">
+            <div class="dropdown-menu absolute right-0 mt-2 py-2 w-48 bg-white border-2 border-yellow-400 rounded-md shadow-lg hidden z-50">
                 @foreach(\App\Helpers\Language::LOCALE as $locale => $language)
                     <a class="block px-4 py-2 text-black hover:bg-yellow-400 transition-all duration-500" href="{{\App\Helpers\Language::getUri($locale)}}">{{$language}}</a>
                 @endforeach
@@ -68,13 +69,13 @@
     </nav>
 </header>
 @yield('content')
-<button class="fixed bottom-20 right-4 bg-white rounded-full p-2 hidden border-2 border-yellow-400" id="go-up">
+<button class="fixed bottom-20 right-4 bg-white rounded-full p-2 hidden border-2 border-yellow-400 z-20" id="go-up">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="rgb(251,191,36)">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
     </svg>
 </button>
-<div class="fixed inset-0 bg-black opacity-50 z-10 hidden" id="overlay"></div>
-<div class="fixed -bottom-40 left-0 right-0 bg-transparent z-10 transition-all duration-1000 hidden" id="cookie-message">
+<div class="fixed inset-0 bg-black opacity-50 z-20 hidden" id="overlay"></div>
+<div class="fixed -bottom-40 left-0 right-0 bg-transparent z-20 transition-all duration-1000 hidden" id="cookie-message">
     <div class="bg-white w-full lg:w-1/3 mx-auto rounded-md p-6 shadow-lg border-2 border-yellow-400">
         <h2 class="text-lg font-bold text-center">@lang('app.Cookies')</h2>
         <p class="text-sm text-center">@lang('app.We use cookies to improve your experience on our site').</p>

@@ -9,7 +9,7 @@
 @section('content')
     <main class="pt-16 bg-gray-100 font-serif">
         <!-- Banner -->
-        <div class="flex justify-between flex-col relative p-2 py-8 mb-2 @if($bookmaker['isLight']) text-black @else text-white @endif"
+        <div class="flex justify-between flex-col relative p-2 py-8 mb-2 shiny-box @if($bookmaker['isLight']) text-black @else text-white @endif"
              style="background: linear-gradient(87deg, {{$bookmaker['logo_color']}} 0%, color-mix(in oklab, {{$bookmaker['logo_color']}}, white 20%) 100%)">
             <div class="flex flex-col lg:flex-row justify-center mb-4">
                 <div class="flex justify-center items-center lg:absolute top-10 left-14">
@@ -23,7 +23,7 @@
                     <h1 class="text-base sm:text-4xl font-bold text-center my-2">{{trans('review.Review', ['bookmaker' => $bookmaker['name']])}}</h1>
                 </div>
             </div>
-            <div class="flex justify-between flex-col sm:flex-row">
+            <div class="flex justify-between flex-col sm:flex-row z-10">
                 <div class="flex flex-col justify-around flex-shrink-0 self-center w-full sm:w-52 h-28 rounded-md p-2 m-1 md:mx-auto" style="background-color: {{$bookmaker['logo_color']}}">
                     <div class="flex justify-between items-center">
                         <div class="flex items-center mx-3">
@@ -40,7 +40,7 @@
                         <input name="rate" value="5" type="checkbox" aria-label="Five stars">
                     </div>
                 </div>
-                <div class="flex flex-col justify-around w-full self-stretch min-h-28 sm:h-28 rounded-md p-2 mr-2 mt-1 md:mx-8" style="background-color: {{$bookmaker['logo_color']}}">
+                <div class="flex flex-col justify-around w-full self-stretch min-h-28 sm:h-28 rounded-md p-2 mr-2 mt-1 md:mx-8 font-sans" style="background-color: {{$bookmaker['logo_color']}}">
                     <div class="text-sm lg:text-base">{{$bookmaker['warning_'.app()->getLocale()]}}</div>
                 </div>
                 <div class="flex flex-col justify-around flex-shrink-0 self-stretch sm:w-36 sm:h-28 rounded-md p-2 mx-1 md:mx-auto">
@@ -61,7 +61,7 @@
         <!-- Quick info -->
         <div class="w-full bg-gray-100 pt-4 px-0 lg:px-28" id="quick-info">
             @if($bookmaker['payments'])
-            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row">
+            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row mx-auto" style="max-width: 1200px">
                 <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
                     <span class="text-base text-gray-500">@lang('review.Payment Methods'):</span>
                 </div>
@@ -73,7 +73,7 @@
             </div>
             @endif
             @if($bookmaker['currencies'])
-            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row">
+            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row mx-auto" style="max-width: 1200px">
                 <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
                     <span class="text-base text-gray-500">@lang('review.Currency'):</span>
                 </div>
@@ -84,18 +84,8 @@
                 </div>
             </div>
             @endif
-            @if($bookmaker['licensed'])
-            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row">
-                <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
-                    <span class="text-base text-gray-500">@lang('review.Licensed/Regulated by'):</span>
-                </div>
-                <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4 w-full">
-                    <p class="p-1 text-gray-500">{{$bookmaker['licensed']}}</p>
-                </div>
-            </div>
-            @endif
             @if($bookmaker['sports'])
-            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row">
+            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row mx-auto" style="max-width: 1200px">
                 <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
                     <span class="text-base text-gray-500">@lang('review.Sports'):</span>
                 </div>
@@ -106,31 +96,29 @@
                 </div>
             </div>
             @endif
-            @if($bookmaker['restrictions'])
-            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row">
+            @if($bookmaker['licensed'])
+            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row mx-auto" style="max-width: 1200px">
                 <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
-                    <span class="text-base text-gray-500">@lang('review.Responsible Gambling'):</span>
+                    <span class="text-base text-gray-500">@lang('review.Licensed/Regulated by'):</span>
                 </div>
                 <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4 w-full">
-                    @foreach($bookmaker['restrictions'] as $restriction)
-                        <p class="px-1 text-gray-500">{{$restriction['name_'.app()->getLocale()]}}@if($restriction != end($bookmaker['restrictions'])),@endif</p>
-                    @endforeach
+                    <p class="p-1 text-gray-500">{{$bookmaker['licensed']}}</p>
                 </div>
             </div>
             @endif
             @if($bookmaker['supports'])
-                <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row">
-                    <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
-                        <span class="text-base text-gray-500">@lang('review.Customer Support'):</span>
-                    </div>
-                    <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4 w-full">
-                        @foreach($bookmaker['supports'] as $support)
-                            <p class="px-1 text-gray-500">{{$support['name_'.app()->getLocale()]}}@if($support != end($bookmaker['supports'])),@endif</p>
-                        @endforeach
-                    </div>
+            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row mx-auto" style="max-width: 1200px">
+                <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
+                    <span class="text-base text-gray-500">@lang('review.Customer Support'):</span>
                 </div>
+                <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4 w-full">
+                    @foreach($bookmaker['supports'] as $support)
+                        <p class="px-1 text-gray-500">{{$support['name_'.app()->getLocale()]}}@if($support != end($bookmaker['supports'])),@endif</p>
+                    @endforeach
+                </div>
+            </div>
             @endif
-            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2">
+            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 mx-auto" style="max-width: 1200px">
                 <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 justify-center">
                     <span class="text-base text-gray-500">@lang('review.Live Streaming'):</span>
                 </div>
@@ -141,8 +129,18 @@
                         <div class="flex-row flex justify-center items-center cursor-default text-gray-500 border-2 border-gray-500 bg-red-200 w-6 h-6 ml-5 rounded-sm">X</div>
                     @endif
                 </div>
+                <div class="hidden sm:flex sm:justify-end items-center flex-shrink-0 justify-center">
+                    <span class="text-base text-gray-500">@lang('review.Tested Betting Sites'):</span>
+                </div>
+                <div class="relative flex-row hidden sm:flex justify-start items-center flex-wrap cursor-pointer sm:pl-4 w-full">
+                    @if($bookmaker['tested'])
+                        <div class="flex-row flex justify-center items-center text-yellow-400 border-2 border-yellow-400 w-6 h-6 ml-5 rounded-sm">&check;</div>
+                    @else
+                        <div class="flex-row flex justify-center items-center cursor-default text-gray-500 border-2 border-gray-500 bg-red-200 w-6 h-6 ml-5 rounded-sm">X</div>
+                    @endif
+                </div>
            </div>
-           <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2">
+            <div class="w-full flex sm:hidden justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 mx-auto" style="max-width: 1200px">
                <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 justify-center">
                    <span class="text-sm text-gray-500">@lang('review.Tested Betting Sites'):</span>
                </div>
@@ -153,18 +151,30 @@
                        <div class="flex-row flex justify-center items-center cursor-default text-gray-500 border-2 border-gray-500 bg-red-200 w-6 h-6 ml-5 rounded-sm">X</div>
                    @endif
                </div>
-           </div>
+            </div>
+            @if($bookmaker['restrictions'])
+            <div class="w-full flex justify-center items-center p-2 py-4 bg-white border-yellow-400 border-b-2 flex-col sm:flex-row mx-auto" style="max-width: 1200px">
+                <div class="flex sm:justify-end items-center sm:w-48 flex-shrink-0 w-full justify-center">
+                    <span class="text-base text-gray-500">@lang('review.Responsible Gambling'):</span>
+                </div>
+                <div class="relative flex-row flex justify-start items-center flex-wrap cursor-pointer sm:pl-4 w-full">
+                    @foreach($bookmaker['restrictions'] as $restriction)
+                        <p class="px-1 text-gray-500">{{$restriction['name_'.app()->getLocale()]}}@if($restriction != end($bookmaker['restrictions'])),@endif</p>
+                    @endforeach
+                </div>
+            </div>
+            @endif
         </div>
         <!--Review-->
         <div class="w-full bg-gray-100 px-0 my-4 lg:px-28">
-            <div class="px-2 sm:px-10 py-4 bg-white">
+            <div class="px-2 sm:px-10 py-4 bg-white mx-auto" style="max-width: 1200px">
                 @foreach($review as $component)
                     @include('inc/component_'.$component['component'], ['key' => $component['key'], 'values' => json_decode($component['value_'.app()->getLocale()], true)])
                 @endforeach
             </div>
         </div>
         <div class="w-full bg-gray-100 px-0 mt-4 lg:px-28">
-            <div class="px-2 sm:px-10 py-4 bg-white">
+            <div class="px-2 sm:px-10 py-4 bg-white mx-auto" style="max-width: 1200px">
                 <span data-url="{{$bookmaker['url']}}" class="bg-yellow-400 text-xs sm:text-lg border-2 border-yellow-400 text-black rounded-md hover:bg-white flex justify-center items-center cursor-pointer transition-all w-44 duration-500 my-2 mx-auto px-16 py-2">@lang('review.Claim')</span>
             </div>
         </div>

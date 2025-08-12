@@ -12,4 +12,5 @@ return [
     'Download' => 'Descargar',
     'Telephone' => 'Teléfono',
     'Sports' => 'Deportes',
+    'Caption' => 'En esta reseña, veremos las aplicaciones móviles para Android e iOS de la casa de apuestas :bookmaker, sus funciones y el procedimiento de instalación',
 ];
