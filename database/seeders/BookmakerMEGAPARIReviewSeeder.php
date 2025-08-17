@@ -393,7 +393,21 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 28
+                'order' => 28
+            ],
+            ['key' => 'megapari',
+                'bookmaker_id' => 9,
+                'component' => 'quick_info',
+                'value_en' => '{"0":""}',
+                'value_es' => '{"0":""}',
+                'value_fr' => '{"0":""}',
+                'value_pt' => '{"0":""}',
+                'order' => 28
+            ]
+        );
+        Review::query()->updateOrCreate(
+            ['key' => 'megapari',
+             'order' => 29
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -402,12 +416,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"El depósito mínimo comienza desde un euro o su equivalente en otra moneda, lo que permite a los nuevos jugadores familiarizarse con la plataforma con un riesgo mínimo. Los retiros pueden tardar entre 15 minutos y varios días según el método y la cantidad."}',
              'value_fr' => '{"0":"Le dépôt minimum commence à un euro ou l’équivalent dans une autre devise, ce qui permet aux nouveaux joueurs de découvrir la plateforme avec un risque minimal. Les retraits peuvent prendre de 15 minutes à plusieurs jours selon la méthode et le montant."}',
              'value_pt' => '{"0":"O depósito mínimo começa a partir de um euro ou equivalente em outra moeda, permitindo que novos jogadores conheçam a plataforma com risco mínimo. Os saques podem levar de 15 minutos a vários dias, dependendo do método e do valor."}',
-             'order' => 28
+             'order' => 29
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 29
+             'order' => 30
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -416,12 +430,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"Normalmente no se cobran comisiones por parte de la casa de apuestas, aunque un método de pago concreto puede tener sus propias tarifas internas. La práctica muestra que la mayoría de los clientes retiran sus ganancias sin problemas, pero a veces se producen retrasos cuando es necesario pasar por el procedimiento de verificación de documentos."}',
              'value_fr' => '{"0":"Les commissions de la part du bookmaker ne sont généralement pas prélevées, bien qu’une méthode de paiement spécifique puisse avoir ses propres frais internes. En pratique, la plupart des clients retirent leurs gains sans problème, mais parfois des délais surviennent lorsque la vérification des documents est nécessaire."}',
              'value_pt' => '{"0":"Normalmente, o bookmaker não cobra taxas, embora um método de pagamento específico possa ter suas próprias tarifas internas. Na prática, a maioria dos clientes retira os ganhos sem problemas, mas às vezes ocorrem atrasos quando é necessário passar pelo procedimento de verificação de documentos."}',
-             'order' => 29
+             'order' => 30
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 30
+             'order' => 31
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -430,12 +444,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
                 'value_es' => '{"0":"Soporte"}',
                 'value_fr' => '{"0":"Assistance"}',
                 'value_pt' => '{"0":"Suporte"}',
-             'order' => 30
+             'order' => 31
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 31
+             'order' => 32
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -444,12 +458,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"La forma más popular y rápida de contactar con el soporte es a través del chat en vivo, disponible directamente en el sitio web. En la mayoría de los casos, un operador responde en uno o dos minutos, lo que hace que la resolución de cuestiones sencillas sea rápida y cómoda. Además del chat, se puede contactar por correo electrónico o por teléfono. También es importante destacar que el soporte está disponible en varios idiomas."}',
              'value_fr' => '{"0":"Le moyen le plus populaire et le plus rapide de contacter le support est le chat en direct, disponible directement sur le site. Dans la plupart des cas, un opérateur répond en une à deux minutes, ce qui permet de résoudre rapidement et facilement les problèmes simples. En plus du chat, il est possible de contacter le support par e-mail ou par téléphone. Il est également important de noter que l’assistance est disponible en plusieurs langues."}',
              'value_pt' => '{"0":"A forma mais popular e rápida de contatar o suporte é através do chat ao vivo, disponível diretamente no site. Na maioria dos casos, um operador responde em um ou dois minutos, tornando a resolução de questões simples rápida e conveniente. Além do chat, é possível entrar em contato por e-mail ou telefone. Também é importante destacar que o suporte está disponível em vários idiomas."}',
-             'order' => 31
+             'order' => 32
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 32
+             'order' => 33
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -458,12 +472,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":""}',
              'value_fr' => '{"0":""}',
              'value_pt' => '{"0":""}',
-             'order' => 32
+             'order' => 33
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 33
+             'order' => 34
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -512,12 +526,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
                                 {"0":"Eventuais atrasos nos saques",
                                  "1":"Processo de verificação de contas relativamente longo"}
                              }',
-             'order' => 33
+             'order' => 34
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 34
+             'order' => 35
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -526,12 +540,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
                 'value_es' => '{"0":"Preguntas Frecuentes"}',
                 'value_fr' => '{"0":"Questions Fréquemment Posées"}',
                 'value_pt' => '{"0":"Perguntas Frequentes"}',
-             'order' => 34
+             'order' => 35
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 35
+             'order' => 36
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -540,12 +554,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Es seguro usar MEGAPARI?"}',
              'value_fr' => '{"0":"Est-il sûr d’utiliser MEGAPARI ?"}',
              'value_pt' => '{"0":"É seguro usar a MEGAPARI?"}',
-             'order' => 35
+             'order' => 36
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 36
+             'order' => 37
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -554,12 +568,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, desde el punto de vista técnico el sitio es seguro, pero hay que tener en cuenta que la licencia no pertenece a las de primera categoría."}',
              'value_fr' => '{"0":"Oui, d’un point de vue technique, le site est sécurisé, mais il convient de noter que la licence n’est pas considérée comme haut de gamme."}',
              'value_pt' => '{"0":"Sim, do ponto de vista técnico, o site é seguro, mas deve-se considerar que a licença não é de primeira categoria."}',
-             'order' => 36
+             'order' => 37
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 37
+             'order' => 38
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -568,12 +582,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Cuál es la apuesta mínima y máxima?"}',
              'value_fr' => '{"0":"Quel est le pari minimum et maximum ?"}',
              'value_pt' => '{"0":"Qual é a aposta mínima e máxima?"}',
-             'order' => 37
+             'order' => 38
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 38
+             'order' => 39
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -582,12 +596,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"La apuesta mínima comienza en 1 €, mientras que la máxima puede alcanzar los 100.000 €, dependiendo del evento."}',
              'value_fr' => '{"0":"Le pari minimum commence à 1 €, tandis que le maximum peut atteindre 100 000 €, selon l’événement."}',
              'value_pt' => '{"0":"A aposta mínima começa em €1, enquanto a máxima pode chegar a €100.000, dependendo do evento."}',
-             'order' => 38
+             'order' => 39
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 39
+             'order' => 40
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -596,12 +610,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Hay transmisiones en vivo?"}',
              'value_fr' => '{"0":"Y a-t-il des diffusions en direct ?"}',
              'value_pt' => '{"0":"Há transmissões ao vivo?"}',
-             'order' => 39
+             'order' => 40
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 40
+             'order' => 41
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -610,12 +624,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, hay transmisiones en vivo de buena calidad para los partidos populares."}',
              'value_fr' => '{"0":"Oui, des diffusions en direct de bonne qualité sont disponibles pour les matchs populaires."}',
              'value_pt' => '{"0":"Sim, transmissões ao vivo de boa qualidade estão disponíveis para partidas populares."}',
-             'order' => 40
+             'order' => 41
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 41
+             'order' => 42
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -624,12 +638,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Qué métodos de retiro están disponibles?"}',
              'value_fr' => '{"0":"Quels sont les méthodes de retrait disponibles ?"}',
              'value_pt' => '{"0":"Quais métodos de saque estão disponíveis?"}',
-             'order' => 41
+             'order' => 42
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 42
+             'order' => 43
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -638,12 +652,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"Tarjetas, monederos electrónicos, transferencias bancarias, criptomonedas."}',
              'value_fr' => '{"0":"Cartes, portefeuilles électroniques, virements bancaires, cryptomonnaies."}',
              'value_pt' => '{"0":"Cartões, carteiras eletrônicas, transferências bancárias, criptomoedas."}',
-             'order' => 42
+             'order' => 43
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 43
+             'order' => 44
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -652,12 +666,12 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Qué tan rápidas son las retiradas?"}',
              'value_fr' => '{"0":"À quelle vitesse les paiements sont-ils effectués ?"}',
              'value_pt' => '{"0":"Quão rápidas são as retiradas?"}',
-             'order' => 43
+             'order' => 44
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'megapari',
-             'order' => 44
+             'order' => 45
             ],
             ['key' => 'megapari',
              'bookmaker_id' => 9,
@@ -666,7 +680,7 @@ class BookmakerMEGAPARIReviewSeeder extends Seeder
              'value_es' => '{"0":"Los monederos electrónicos se procesan en 15 minutos, mientras que los métodos bancarios pueden tardar desde unas pocas horas hasta varios días."}',
              'value_fr' => '{"0":"Les portefeuilles électroniques sont traités en 15 minutes, tandis que les méthodes bancaires peuvent prendre de quelques heures à plusieurs jours."}',
              'value_pt' => '{"0":"As carteiras eletrônicas são processadas em 15 minutos, enquanto os métodos bancários podem levar de algumas horas até vários dias."}',
-             'order' => 44
+             'order' => 45
             ]
         );
     }

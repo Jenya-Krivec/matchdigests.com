@@ -449,7 +449,21 @@ class BookmakerMelBetReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 32
+                'order' => 32
+            ],
+            ['key' => 'melbet',
+                'bookmaker_id' => 2,
+                'component' => 'quick_info',
+                'value_en' => '{"0":""}',
+                'value_es' => '{"0":""}',
+                'value_fr' => '{"0":""}',
+                'value_pt' => '{"0":""}',
+                'order' => 32
+            ]
+        );
+        Review::query()->updateOrCreate(
+            ['key' => 'melbet',
+             'order' => 33
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -458,12 +472,12 @@ class BookmakerMelBetReviewSeeder extends Seeder
                 'value_es' => '{"0":"Soporte"}',
                 'value_fr' => '{"0":"Assistance"}',
                 'value_pt' => '{"0":"Suporte"}',
-             'order' => 32
+             'order' => 33
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 33
+             'order' => 34
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -472,12 +486,12 @@ class BookmakerMelBetReviewSeeder extends Seeder
              'value_es' => '{"0":"El servicio de atención al cliente está disponible las 24 horas, los 7 días de la semana. Puedes contactarlos por chat en vivo, correo electrónico o teléfono."}',
              'value_fr' => '{"0":"L’assistance clientèle est disponible 24h/24 et 7j/7. Vous pouvez les contacter par chat en direct, e-mail ou téléphone."}',
              'value_pt' => '{"0":"O suporte ao cliente está disponível 24 horas por dia, 7 dias por semana. Você pode entrar em contato via chat ao vivo, e-mail ou telefone."}',
-             'order' => 33
+             'order' => 34
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 34
+             'order' => 35
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -486,12 +500,12 @@ class BookmakerMelBetReviewSeeder extends Seeder
              'value_es' => '{"0":""}',
              'value_fr' => '{"0":""}',
              'value_pt' => '{"0":""}',
-             'order' => 34
+             'order' => 35
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'melbet',
-             'order' => 35
+             'order' => 36
             ],
             ['key' => 'melbet',
              'bookmaker_id' => 2,
@@ -544,7 +558,7 @@ class BookmakerMelBetReviewSeeder extends Seeder
                                 {"0":"Restrições para apostadores profissionais",
                                  "1":"Cotações baixas em partidas secundárias"}
                              }',
-             'order' => 35
+             'order' => 36
             ]
         );
         Review::query()->updateOrCreate(

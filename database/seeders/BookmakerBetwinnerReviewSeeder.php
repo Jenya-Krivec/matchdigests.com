@@ -449,7 +449,21 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 32
+                'order' => 32
+            ],
+            ['key' => 'betwinner',
+                'bookmaker_id' => 3,
+                'component' => 'quick_info',
+                'value_en' => '{"0":""}',
+                'value_es' => '{"0":""}',
+                'value_fr' => '{"0":""}',
+                'value_pt' => '{"0":""}',
+                'order' => 32
+            ]
+        );
+        Review::query()->updateOrCreate(
+            ['key' => 'betwinner',
+             'order' => 33
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -458,12 +472,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
                 'value_es' => '{"0":"Soporte"}',
                 'value_fr' => '{"0":"Assistance"}',
                 'value_pt' => '{"0":"Suporte"}',
-             'order' => 32
+             'order' => 33
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 33
+             'order' => 34
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -472,12 +486,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"La atención al cliente está disponible las 24 horas del día y se puede contactar mediante chat en vivo, correo electrónico e incluso mensajería como Facebook, Twitter, Instagram y Telegram. El sitio web cuenta con una sección específica con un formulario de contacto donde puedes seleccionar el tema de tu consulta y adjuntar capturas de pantalla."}',
              'value_fr' => '{"0":"L’assistance est disponible 24h/24 et peut être contactée via le chat en direct, l’e-mail et même des messageries telles que Facebook, Twitter, Instagram et Telegram. Le site propose une section dédiée avec un formulaire de contact permettant de choisir le sujet de la demande et de joindre des captures d’écran."}',
              'value_pt' => '{"0":"O suporte está disponível 24 horas por dia e pode ser contactado via chat ao vivo, e-mail e até por mensageiros como Facebook, Twitter, Instagram e Telegram. O site tem uma secção dedicada com um formulário de contacto onde é possível selecionar o assunto da solicitação e anexar capturas de ecrã."}',
-             'order' => 33
+             'order' => 34
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 34
+             'order' => 35
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -486,12 +500,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"Existen canales de soporte separados para cuestiones relacionadas con pagos, problemas técnicos o bonificaciones. También es importante destacar que el soporte está disponible en varios idiomas."}',
              'value_fr' => '{"0":"Il existe des canaux de support distincts pour les questions de paiement, les problèmes techniques ou les bonus. Il est également important de noter que l’assistance est disponible dans plusieurs langues."}',
              'value_pt' => '{"0":"Existem canais de apoio separados para questões de pagamentos, problemas técnicos ou bónus. Também é importante referir que o suporte é oferecido em vários idiomas."}',
-             'order' => 34
+             'order' => 35
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 35
+             'order' => 36
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -500,12 +514,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":""}',
              'value_fr' => '{"0":""}',
              'value_pt' => '{"0":""}',
-             'order' => 35
+             'order' => 36
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 36
+             'order' => 37
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -554,12 +568,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
                                 {"0":"Verificação complicada",
                                  "1":"Acesso restrito em alguns países"}
                              }',
-             'order' => 36
+             'order' => 37
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 37
+             'order' => 38
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -568,12 +582,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
                 'value_es' => '{"0":"Preguntas Frecuentes"}',
                 'value_fr' => '{"0":"Questions Fréquemment Posées"}',
                 'value_pt' => '{"0":"Perguntas Frequentes"}',
-             'order' => 37
+             'order' => 38
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 38
+             'order' => 39
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -582,12 +596,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"¿BetWinner tiene licencia?"}',
              'value_fr' => '{"0":"BetWinner est-il licencié ?"}',
              'value_pt' => '{"0":"A BetWinner é licenciada?"}',
-             'order' => 38
+             'order' => 39
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 39
+             'order' => 40
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -596,12 +610,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, BetWinner opera bajo una licencia de Curazao y además cuenta con licencias locales en países como Kenia y Nigeria."}',
              'value_fr' => '{"0":"Oui, BetWinner opère sous une licence de Curaçao et possède également des licences locales dans des pays comme le Kenya et le Nigéria."}',
              'value_pt' => '{"0":"Sim, a BetWinner opera sob uma licença de Curaçao e também possui licenças locais em países como Quênia e Nigéria."}',
-             'order' => 39
+             'order' => 40
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 40
+             'order' => 41
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -610,12 +624,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Qué métodos de depósito están disponibles?"}',
              'value_fr' => '{"0":"Quels sont les moyens de dépôt disponibles ?"}',
              'value_pt' => '{"0":"Quais métodos de depósito estão disponíveis?"}',
-             'order' => 40
+             'order' => 41
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 41
+             'order' => 42
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -624,12 +638,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"Tendrás acceso a más de 50 opciones, incluyendo tarjetas, monederos electrónicos, métodos locales de depósito y criptomonedas."}',
              'value_fr' => '{"0":"Vous aurez accès à plus de 50 options, y compris les cartes, les portefeuilles électroniques, les méthodes de dépôt locales et les cryptomonnaies."}',
              'value_pt' => '{"0":"Você terá acesso a mais de 50 opções, incluindo cartões, carteiras eletrônicas, métodos locais de depósito e criptomoedas."}',
-             'order' => 41
+             'order' => 42
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 42
+             'order' => 43
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -638,12 +652,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Se pueden hacer apuestas en vivo y ver transmisiones?"}',
              'value_fr' => '{"0":"Peut-on faire des paris en direct et regarder des retransmissions ?"}',
              'value_pt' => '{"0":"É possível fazer apostas ao vivo e assistir transmissões?"}',
-             'order' => 42
+             'order' => 43
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 43
+             'order' => 44
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -652,12 +666,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, es posible hacer apuestas en vivo y ver transmisiones de video en directo. Esto es especialmente conveniente con las funciones de multi live y cash out."}',
              'value_fr' => '{"0":"Oui, il est possible de faire des paris en direct et de regarder des retransmissions vidéo en direct. C’est particulièrement pratique avec les fonctions multi live et cash out."}',
              'value_pt' => '{"0":"Sim, é possível fazer apostas ao vivo e assistir transmissões de vídeo ao vivo. Isso é especialmente conveniente com os recursos multi live e cash out."}',
-             'order' => 43
+             'order' => 44
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 44
+             'order' => 45
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -666,12 +680,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"¿BetWinner apoya el juego responsable?"}',
              'value_fr' => '{"0":"BetWinner soutient-il le jeu responsable ?"}',
              'value_pt' => '{"0":"O BetWinner apoia o jogo responsável?"}',
-             'order' => 44
+             'order' => 45
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 45
+             'order' => 46
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -680,12 +694,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, es posible establecer límites o autoexclusión a través del soporte."}',
              'value_fr' => '{"0":"Oui, il est possible de définir des limites ou une auto-exclusion via le support."}',
              'value_pt' => '{"0":"Sim, é possível definir limites ou autoexclusão através do suporte."}',
-             'order' => 45
+             'order' => 46
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 46
+             'order' => 47
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -694,12 +708,12 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Qué tipo de soporte está disponible?"}',
              'value_fr' => '{"0":"Quel type d’assistance est disponible ?"}',
              'value_pt' => '{"0":"Que suporte está disponível?"}',
-             'order' => 46
+             'order' => 47
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'betwinner',
-             'order' => 47
+             'order' => 48
             ],
             ['key' => 'betwinner',
              'bookmaker_id' => 3,
@@ -708,7 +722,7 @@ class BookmakerBetwinnerReviewSeeder extends Seeder
              'value_es' => '{"0":"El soporte al cliente está disponible las 24 horas del día, los 7 días de la semana, a través de chat en vivo, correo electrónico, teléfono y varias redes sociales."}',
              'value_fr' => '{"0":"Un support client 24h/24 et 7j/7 est disponible via chat en direct, email, téléphone et divers réseaux sociaux."}',
              'value_pt' => '{"0":"Suporte ao cliente 24 horas por dia, 7 dias por semana, disponível via chat ao vivo, email, telefone e várias redes sociais."}',
-             'order' => 47
+             'order' => 48
             ]
         );
     }

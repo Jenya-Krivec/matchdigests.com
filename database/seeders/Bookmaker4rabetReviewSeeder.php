@@ -393,7 +393,21 @@ class Bookmaker4rabetReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 28
+                'order' => 28
+            ],
+            ['key' => '4rabet',
+                'bookmaker_id' => 7,
+                'component' => 'quick_info',
+                'value_en' => '{"0":""}',
+                'value_es' => '{"0":""}',
+                'value_fr' => '{"0":""}',
+                'value_pt' => '{"0":""}',
+                'order' => 28
+            ]
+        );
+        Review::query()->updateOrCreate(
+            ['key' => '4rabet',
+             'order' => 29
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -402,12 +416,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
                 'value_es' => '{"0":"Soporte"}',
                 'value_fr' => '{"0":"Assistance"}',
                 'value_pt' => '{"0":"Suporte"}',
-             'order' => 28
+             'order' => 29
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 29
+             'order' => 30
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -416,12 +430,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":"El servicio de atención al cliente de 4RABET funciona las 24 horas, los 7 días de la semana y está disponible a través de chat en línea, correo electrónico y el formulario de contacto en el sitio web. La opción más rápida es, por supuesto, el chat, donde se puede recibir una respuesta en unos pocos minutos."}',
              'value_fr' => '{"0":"Le service client de 4RABET est disponible 24h/24 et 7j/7 via le chat en ligne, par email et via le formulaire de contact sur le site. L’option la plus rapide est bien sûr le chat, où l’on peut recevoir une réponse en quelques minutes."}',
              'value_pt' => '{"0":"O serviço de suporte da 4RABET funciona 24 horas por dia, 7 dias por semana, e está disponível via chat online, e-mail e formulário de contato no site. A opção mais rápida é, naturalmente, o chat, onde é possível receber uma resposta em poucos minutos."}',
-             'order' => 29
+             'order' => 30
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 30
+             'order' => 31
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -430,12 +444,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":""}',
              'value_fr' => '{"0":""}',
              'value_pt' => '{"0":""}',
-             'order' => 30
+             'order' => 31
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 31
+             'order' => 32
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -480,12 +494,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
                                 {"0":"Número limitado de transmissões ao vivo",
                                  "1":"Sem aplicativo para iOS"}
                              }',
-             'order' => 31
+             'order' => 32
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 32
+             'order' => 33
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -494,12 +508,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
                 'value_es' => '{"0":"Preguntas Frecuentes"}',
                 'value_fr' => '{"0":"Questions Fréquemment Posées"}',
                 'value_pt' => '{"0":"Perguntas Frequentes"}',
-             'order' => 32
+             'order' => 33
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 33
+             'order' => 34
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -508,12 +522,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Está disponible la aplicación móvil de 4RABET?"}',
              'value_fr' => '{"0":"L’application mobile 4RABET est-elle disponible ?"}',
              'value_pt' => '{"0":"O aplicativo móvel 4RABET está disponível?"}',
-             'order' => 33
+             'order' => 34
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 34
+             'order' => 35
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -522,12 +536,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, hay una aplicación para Android, y los usuarios de smartphones iOS pueden utilizar la versión web."}',
              'value_fr' => '{"0":"Oui, il existe une application pour Android, et les utilisateurs d’iPhone peuvent utiliser l’application web."}',
              'value_pt' => '{"0":"Sim, há um aplicativo para Android, e os usuários de smartphones iOS podem usar o aplicativo web."}',
-             'order' => 34
+             'order' => 35
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 35
+             'order' => 36
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -536,12 +550,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Cuál es el depósito mínimo en 4RABET?"}',
              'value_fr' => '{"0":"Quel est le dépôt minimum sur 4RABET ?"}',
              'value_pt' => '{"0":"Qual é o depósito mínimo na 4RABET?"}',
-             'order' => 35
+             'order' => 36
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 36
+             'order' => 37
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -550,12 +564,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":"El depósito mínimo es de $1 o su equivalente en otra moneda."}',
              'value_fr' => '{"0":"Le dépôt minimum est de 1 $ ou l’équivalent dans une autre devise."}',
              'value_pt' => '{"0":"O depósito mínimo é de US$1 ou o equivalente em outra moeda."}',
-             'order' => 36
+             'order' => 37
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 37
+             'order' => 38
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -564,12 +578,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Cuánto tiempo tarda el retiro de fondos?"}',
              'value_fr' => '{"0":"Combien de temps prend le retrait des fonds ?"}',
              'value_pt' => '{"0":"Quanto tempo leva para retirar fundos?"}',
-             'order' => 37
+             'order' => 38
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 38
+             'order' => 39
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -578,12 +592,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":"En la mayoría de los casos, el dinero se recibe dentro de 24–48 horas, dependiendo del método y la cantidad."}',
              'value_fr' => '{"0":"Dans la plupart des cas, l’argent est reçu sous 24 à 48 heures, selon la méthode et le montant."}',
              'value_pt' => '{"0":"Na maioria dos casos, o dinheiro é recebido dentro de 24 a 48 horas, dependendo do método e do valor."}',
-             'order' => 38
+             'order' => 39
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 39
+             'order' => 40
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -592,12 +606,12 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Se pueden realizar apuestas en modo en vivo?"}',
              'value_fr' => '{"0":"Peut-on parier en mode live ?"}',
              'value_pt' => '{"0":"É possível fazer apostas em modo ao vivo?"}',
-             'order' => 39
+             'order' => 40
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '4rabet',
-             'order' => 40
+             'order' => 41
             ],
             ['key' => '4rabet',
              'bookmaker_id' => 7,
@@ -606,7 +620,7 @@ class Bookmaker4rabetReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, se admiten apuestas en vivo y algunos eventos también cuentan con transmisiones en directo."}',
              'value_fr' => '{"0":"Oui, les paris en direct sont disponibles, et certains événements proposent également des diffusions en direct."}',
              'value_pt' => '{"0":"Sim, as apostas ao vivo são suportadas, e alguns eventos também têm transmissões ao vivo disponíveis."}',
-             'order' => 40
+             'order' => 41
             ]
         );
     }

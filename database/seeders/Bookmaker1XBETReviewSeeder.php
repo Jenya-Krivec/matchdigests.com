@@ -439,11 +439,11 @@ class Bookmaker1XBETReviewSeeder extends Seeder
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
-             'component' => 'h2',
-             'value_en' => '{"0":"Support"}',
-             'value_es' => '{"0":"Soporte"}',
-             'value_fr' => '{"0":"Assistance"}',
-             'value_pt' => '{"0":"Suporte"}',
+             'component' => 'quick_info',
+             'value_en' => '{"0":""}',
+             'value_es' => '{"0":""}',
+             'value_fr' => '{"0":""}',
+             'value_pt' => '{"0":""}',
              'order' => 30
             ]
         );
@@ -453,11 +453,11 @@ class Bookmaker1XBETReviewSeeder extends Seeder
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
-             'component' => 'p',
-             'value_en' => '{"0":"The support service at 1XBET operates around the clock and is available via live chat, email, and hotline."}',
-             'value_es' => '{"0":"El servicio de atención al cliente de 1XBET funciona las 24 horas y está disponible a través de chat en vivo, correo electrónico y línea directa."}',
-             'value_fr' => '{"0":"Le service d’assistance de 1XBET fonctionne 24 heures sur 24 et est accessible via chat en direct, e-mail et hotline."}',
-             'value_pt' => '{"0":"O serviço de suporte da 1XBET funciona 24 horas por dia e está disponível via chat ao vivo, e-mail e linha direta."}',
+             'component' => 'h2',
+             'value_en' => '{"0":"Support"}',
+             'value_es' => '{"0":"Soporte"}',
+             'value_fr' => '{"0":"Assistance"}',
+             'value_pt' => '{"0":"Suporte"}',
              'order' => 31
             ]
         );
@@ -467,17 +467,31 @@ class Bookmaker1XBETReviewSeeder extends Seeder
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
-             'component' => 'support',
-             'value_en' => '{"0":""}',
-             'value_es' => '{"0":""}',
-             'value_fr' => '{"0":""}',
-             'value_pt' => '{"0":""}',
+             'component' => 'p',
+             'value_en' => '{"0":"The support service at 1XBET operates around the clock and is available via live chat, email, and hotline."}',
+             'value_es' => '{"0":"El servicio de atención al cliente de 1XBET funciona las 24 horas y está disponible a través de chat en vivo, correo electrónico y línea directa."}',
+             'value_fr' => '{"0":"Le service d’assistance de 1XBET fonctionne 24 heures sur 24 et est accessible via chat en direct, e-mail et hotline."}',
+             'value_pt' => '{"0":"O serviço de suporte da 1XBET funciona 24 horas por dia e está disponível via chat ao vivo, e-mail e linha direta."}',
              'order' => 32
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
              'order' => 33
+            ],
+            ['key' => '1xbet',
+             'bookmaker_id' => 1,
+             'component' => 'support',
+             'value_en' => '{"0":""}',
+             'value_es' => '{"0":""}',
+             'value_fr' => '{"0":""}',
+             'value_pt' => '{"0":""}',
+             'order' => 33
+            ]
+        );
+        Review::query()->updateOrCreate(
+            ['key' => '1xbet',
+             'order' => 34
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -522,12 +536,12 @@ class Bookmaker1XBETReviewSeeder extends Seeder
                                 {"0":"Possíveis atrasos nos saques",
                                  "1":"Limites aplicados a contas vencedoras"}
                              }',
-             'order' => 33
+             'order' => 34
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
-             'order' => 34
+             'order' => 35
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -536,12 +550,12 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_es' => '{"0":"Preguntas Frecuentes"}',
              'value_fr' => '{"0":"Questions Fréquemment Posées"}',
              'value_pt' => '{"0":"Perguntas Frequentes"}',
-             'order' => 34
+             'order' => 35
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
-             'order' => 35
+             'order' => 36
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -550,12 +564,12 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Cuánto tiempo tarda el retiro de fondos?"}',
              'value_fr' => '{"0":"Combien de temps prend le retrait des fonds ?"}',
              'value_pt' => '{"0":"Quanto tempo leva para sacar fundos?"}',
-             'order' => 35
+             'order' => 36
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
-             'order' => 36
+             'order' => 37
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -564,12 +578,12 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_es' => '{"0":"Normalmente de unos minutos hasta 72 horas. Sin embargo, el primer retiro requiere verificación."}',
              'value_fr' => '{"0":"Généralement de quelques minutes à 72 heures. Cependant, le premier retrait nécessite une vérification."}',
              'value_pt' => '{"0":"Normalmente de alguns minutos até 72 horas. No entanto, o primeiro saque requer verificação."}',
-             'order' => 36
+             'order' => 37
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
-             'order' => 37
+             'order' => 38
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -578,12 +592,12 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Se puede jugar en el casino sin depositar?"}',
              'value_fr' => '{"0":"Peut-on jouer au casino sans déposer d’argent ?"}',
              'value_pt' => '{"0":"É possível jogar no cassino sem depositar?"}',
-             'order' => 37
+             'order' => 38
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
-             'order' => 38
+             'order' => 39
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -592,12 +606,12 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, muchos tragamonedas tienen versión demo disponible, pero para apostar con dinero real es necesario depositar fondos."}',
              'value_fr' => '{"0":"Oui, de nombreux jeux de machines à sous proposent une version démo, mais pour miser de l’argent réel, il faut approvisionner son compte"}',
              'value_pt' => '{"0":"Sim, muitos caça-níqueis têm versão demo disponível, mas para apostar com dinheiro real é necessário depositar na conta."}',
-             'order' => 38
+             'order' => 39
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
-             'order' => 39
+             'order' => 40
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -606,12 +620,12 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Hay una aplicación móvil?"}',
              'value_fr' => '{"0":"Y a-t-il une application mobile ?"}',
              'value_pt' => '{"0":"Existe um aplicativo móvel?"}',
-             'order' => 39
+             'order' => 40
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
-             'order' => 40
+             'order' => 41
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -620,12 +634,12 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, hay aplicaciones disponibles para Android y iOS. Soportan todas las funciones: apuestas, casino y retiros."}',
              'value_fr' => '{"0":"Oui, des applications sont disponibles pour Android et iOS. Elles offrent toutes les fonctionnalités : paris, casino, retraits."}',
              'value_pt' => '{"0":"Sim, aplicativos estão disponíveis para Android e iOS. Eles suportam todas as funções — apostas, cassino e saques."}',
-             'order' => 40
+             'order' => 41
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
-             'order' => 41
+             'order' => 42
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -634,12 +648,12 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Es seguro usar la plataforma?"}',
              'value_fr' => '{"0":"Est-il sûr d’utiliser la plateforme ?"}',
              'value_pt' => '{"0":"É seguro usar a plataforma?"}',
-             'order' => 41
+             'order' => 42
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1xbet',
-             'order' => 42
+             'order' => 43
             ],
             ['key' => '1xbet',
              'bookmaker_id' => 1,
@@ -648,7 +662,7 @@ class Bookmaker1XBETReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, siempre que sigas las reglas y utilices el sitio oficial."}',
              'value_fr' => '{"0":"Oui, à condition de respecter les règles et d’utiliser le site officiel."}',
              'value_pt' => '{"0":"Sim, desde que você siga as regras e utilize o site oficial."}',
-             'order' => 42
+             'order' => 43
             ]
         );
     }

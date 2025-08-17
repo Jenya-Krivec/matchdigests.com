@@ -435,7 +435,21 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 31
+                'order' => 31
+            ],
+            ['key' => 'paripesa',
+                'bookmaker_id' => 6,
+                'component' => 'quick_info',
+                'value_en' => '{"0":""}',
+                'value_es' => '{"0":""}',
+                'value_fr' => '{"0":""}',
+                'value_pt' => '{"0":""}',
+                'order' => 31
+            ]
+        );
+        Review::query()->updateOrCreate(
+            ['key' => 'paripesa',
+             'order' => 32
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -444,12 +458,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
                 'value_es' => '{"0":"Soporte"}',
                 'value_fr' => '{"0":"Assistance"}',
                 'value_pt' => '{"0":"Suporte"}',
-             'order' => 31
+             'order' => 32
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 32
+             'order' => 33
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -458,12 +472,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":"El servicio de atención al cliente de PARIPESA funciona las 24 horas, lo que es una ventaja importante para los jugadores de diferentes zonas horarias. Puede comunicarse con los operadores a través del chat en vivo en el sitio web, por teléfono o por correo electrónico."}',
              'value_fr' => '{"0":"Le service client de PARIPESA est disponible 24h/24, ce qui est un atout important pour les joueurs de différents fuseaux horaires. Vous pouvez contacter les opérateurs via le chat en direct sur le site, par téléphone ou par e-mail."}',
              'value_pt' => '{"0":"O suporte ao cliente da PARIPESA funciona 24 horas por dia, o que é uma vantagem importante para jogadores de diferentes fusos horários. Você pode entrar em contato com os operadores via chat ao vivo no site, por telefone ou por e-mail."}',
-             'order' => 32
+             'order' => 33
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 33
+             'order' => 34
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -472,12 +486,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":""}',
              'value_fr' => '{"0":""}',
              'value_pt' => '{"0":""}',
-             'order' => 33
+             'order' => 34
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 34
+             'order' => 35
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -522,12 +536,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
                                 {"0":"Alguns métodos de saque levam até 3 dias",
                                  "1":"A interface pode parecer sobrecarregada"}
                              }',
-             'order' => 34
+             'order' => 35
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 35
+             'order' => 36
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -536,12 +550,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
                 'value_es' => '{"0":"Preguntas Frecuentes"}',
                 'value_fr' => '{"0":"Questions Fréquemment Posées"}',
                 'value_pt' => '{"0":"Perguntas Frequentes"}',
-             'order' => 35
+             'order' => 36
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 36
+             'order' => 37
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -550,12 +564,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Es legal usar PARIPESA?"}',
              'value_fr' => '{"0":"Est-il légal d\'utiliser PARIPESA ?"}',
              'value_pt' => '{"0":"É legal usar o PARIPESA?"}',
-             'order' => 36
+             'order' => 37
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 37
+             'order' => 38
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -564,12 +578,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, la casa de apuestas opera bajo una licencia de Curazao."}',
              'value_fr' => '{"0":"Oui, le bookmaker opère sous une licence de Curaçao."}',
              'value_pt' => '{"0":"Sim, a casa de apostas opera sob uma licença de Curaçao."}',
-             'order' => 37
+             'order' => 38
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 38
+             'order' => 39
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -578,12 +592,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Hay una aplicación móvil?"}',
              'value_fr' => '{"0":"Y a-t-il une application mobile ?"}',
              'value_pt' => '{"0":"Existe um aplicativo móvel?"}',
-             'order' => 38
+             'order' => 39
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 39
+             'order' => 40
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -592,12 +606,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, hay aplicaciones disponibles para Android e iOS, y también hay una versión móvil conveniente del sitio web."}',
              'value_fr' => '{"0":"Oui, des applications sont disponibles pour Android et iOS, ainsi qu\'une version mobile pratique du site web."}',
              'value_pt' => '{"0":"Sim, os aplicativos estão disponíveis para Android e iOS, e também há uma versão móvel conveniente do site."}',
-             'order' => 39
+             'order' => 40
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 40
+             'order' => 41
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -606,12 +620,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Cuánto tiempo tarda el retiro de fondos?"}',
              'value_fr' => '{"0":"Quelle est la rapidité des retraits ?"}',
              'value_pt' => '{"0":"Quão rápido é o processo de saque?"}',
-             'order' => 40
+             'order' => 41
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 41
+             'order' => 42
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -620,12 +634,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":"En la mayoría de los casos, los retiros se procesan en unas pocas horas, pero a veces pueden tardar hasta 72 horas."}',
              'value_fr' => '{"0":"Dans la plupart des cas, les retraits sont effectués en quelques heures, mais parfois cela peut prendre jusqu\'à 72 heures."}',
              'value_pt' => '{"0":"Na maioria dos casos, os saques são processados em poucas horas, mas às vezes podem levar até 72 horas."}',
-             'order' => 41
+             'order' => 42
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 42
+             'order' => 43
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -634,12 +648,12 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Se puede apostar con criptomonedas?"}',
              'value_fr' => '{"0":"Peut-on parier en cryptomonnaie ?"}',
              'value_pt' => '{"0":"É possível apostar com criptomoedas?"}',
-             'order' => 42
+             'order' => 43
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'paripesa',
-             'order' => 43
+             'order' => 44
             ],
             ['key' => 'paripesa',
              'bookmaker_id' => 6,
@@ -648,7 +662,7 @@ class BookmakerPARIPESAReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, se aceptan Bitcoin, Ethereum y otras monedas populares."}',
              'value_fr' => '{"0":"Oui, Bitcoin, Ethereum et d\'autres monnaies populaires sont pris en charge."}',
              'value_pt' => '{"0":"Sim, Bitcoin, Ethereum e outras moedas populares são suportadas."}',
-             'order' => 43
+             'order' => 44
             ]
         );
     }

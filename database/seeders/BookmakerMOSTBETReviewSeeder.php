@@ -519,7 +519,21 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 36
+                'order' => 36
+            ],
+            ['key' => 'mostbet',
+                'bookmaker_id' => 5,
+                'component' => 'quick_info',
+                'value_en' => '{"0":""}',
+                'value_es' => '{"0":""}',
+                'value_fr' => '{"0":""}',
+                'value_pt' => '{"0":""}',
+                'order' => 36
+            ]
+        );
+        Review::query()->updateOrCreate(
+            ['key' => 'mostbet',
+             'order' => 37
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -528,12 +542,12 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
                 'value_es' => '{"0":"Soporte"}',
                 'value_fr' => '{"0":"Assistance"}',
                 'value_pt' => '{"0":"Suporte"}',
-             'order' => 36
+             'order' => 37
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 37
+             'order' => 38
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -542,12 +556,12 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'value_es' => '{"0":"Mostbet ofrece soporte las 24 horas a través de chat en línea, correo electrónico o redes sociales."}',
              'value_fr' => '{"0":"Mostbet offre une assistance 24h/24 via chat en ligne, e-mail ou réseaux sociaux."}',
              'value_pt' => '{"0":"A Mostbet oferece suporte 24 horas por dia via chat online, e-mail ou redes sociais."}',
-             'order' => 37
+             'order' => 38
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 38
+             'order' => 39
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -556,12 +570,12 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'value_es' => '{"0":""}',
              'value_fr' => '{"0":""}',
              'value_pt' => '{"0":""}',
-             'order' => 38
+             'order' => 39
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 39
+             'order' => 40
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -570,12 +584,12 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
                 'value_es' => '{"0":"Preguntas Frecuentes"}',
                 'value_fr' => '{"0":"Questions Fréquemment Posées"}',
                 'value_pt' => '{"0":"Perguntas Frequentes"}',
-             'order' => 39
+             'order' => 40
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 40
+             'order' => 41
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -584,12 +598,12 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Cuál es la apuesta mínima y el máximo retiro diario?"}',
              'value_fr' => '{"0":"Quelle est la mise minimale et le retrait quotidien maximum ?"}',
              'value_pt' => '{"0":"Qual é a aposta mínima e o limite máximo de saque diário?"}',
-             'order' => 40
+             'order' => 41
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 41
+             'order' => 42
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -598,12 +612,12 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'value_es' => '{"0":"La apuesta mínima es aproximadamente 0.2 USD, y el máximo retiro diario es hasta 1000 USD."}',
              'value_fr' => '{"0":"La mise minimale est d’environ 0,2 USD, et le plafond de retrait quotidien est jusqu’à 1000 USD."}',
              'value_pt' => '{"0":"A aposta mínima é cerca de 0,2 USD, e o limite máximo de saque diário é até 1000 USD."}',
-             'order' => 41
+             'order' => 42
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 42
+             'order' => 43
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -612,12 +626,12 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Hay versiones demo del casino?"}',
              'value_fr' => '{"0":"Y a-t-il des versions démo du casino ?"}',
              'value_pt' => '{"0":"Existem versões demo do cassino?"}',
-             'order' => 42
+             'order' => 43
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 43
+             'order' => 44
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -626,12 +640,12 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, hay versiones demo disponibles en el casino."}',
              'value_fr' => '{"0":"Oui, des versions démo sont disponibles dans le casino."}',
              'value_pt' => '{"0":"Sim, versões demo estão disponíveis no cassino."}',
-             'order' => 43
+             'order' => 44
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 44
+             'order' => 45
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -640,12 +654,12 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Qué hacer si mi apuesta es aceptada con una cuota extraña?"}',
              'value_fr' => '{"0":"Que faire si mon pari est accepté avec une cote étrange ?"}',
              'value_pt' => '{"0":"O que fazer se minha aposta for aceita com uma odd estranha?"}',
-             'order' => 44
+             'order' => 45
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => 'mostbet',
-             'order' => 45
+             'order' => 46
             ],
             ['key' => 'mostbet',
              'bookmaker_id' => 5,
@@ -654,7 +668,7 @@ class BookmakerMOSTBETReviewSeeder extends Seeder
              'value_es' => '{"0":"Mostbet puede establecer automáticamente la cuota en 1 en caso de datos sospechosos; esta decisión es final y no se puede apelar."}',
              'value_fr' => '{"0":"Mostbet peut automatiquement fixer la cote à 1 en cas de données suspectes ; cette décision est finale et non contestable."}',
              'value_pt' => '{"0":"A Mostbet pode definir automaticamente a odd para 1 em caso de dados suspeitos; esta decisão é final e não pode ser contestada."}',
-             'order' => 45
+             'order' => 46
             ]
         );
     }

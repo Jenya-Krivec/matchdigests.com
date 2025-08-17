@@ -463,7 +463,21 @@ class Bookmaker1winReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 33
+                'order' => 33
+            ],
+            ['key' => '1win',
+                'bookmaker_id' => 4,
+                'component' => 'quick_info',
+                'value_en' => '{"0":""}',
+                'value_es' => '{"0":""}',
+                'value_fr' => '{"0":""}',
+                'value_pt' => '{"0":""}',
+                'order' => 33
+            ]
+        );
+        Review::query()->updateOrCreate(
+            ['key' => '1win',
+             'order' => 34
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -472,12 +486,12 @@ class Bookmaker1winReviewSeeder extends Seeder
                 'value_es' => '{"0":"Soporte"}',
                 'value_fr' => '{"0":"Assistance"}',
                 'value_pt' => '{"0":"Suporte"}',
-             'order' => 33
+             'order' => 34
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 34
+             'order' => 35
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -486,12 +500,12 @@ class Bookmaker1winReviewSeeder extends Seeder
              'value_es' => '{"0":"El servicio de atención al cliente de 1win funciona las 24 horas. También hay soporte por correo electrónico, pero la velocidad de respuesta de los operadores es considerablemente más baja. Por lo tanto, si tienes una consulta urgente, es mejor que contactes directamente por el chat en vivo."}',
              'value_fr' => '{"0":"Le service client de 1win est disponible 24h/24. Un support par e-mail est également proposé, mais les temps de réponse y sont nettement plus longs. Donc, en cas de question urgente, il vaut mieux utiliser directement le chat en direct."}',
              'value_pt' => '{"0":"O serviço de suporte da 1win funciona 24 horas por dia. Também há suporte por e-mail, mas o tempo de resposta dos operadores é consideravelmente mais lento. Portanto, se tiver uma questão urgente, é melhor entrar em contacto diretamente pelo chat ao vivo."}',
-             'order' => 34
+             'order' => 35
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 35
+             'order' => 36
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -500,12 +514,12 @@ class Bookmaker1winReviewSeeder extends Seeder
              'value_es' => '{"0":""}',
              'value_fr' => '{"0":""}',
              'value_pt' => '{"0":""}',
-             'order' => 35
+             'order' => 36
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 36
+             'order' => 37
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -542,12 +556,12 @@ class Bookmaker1winReviewSeeder extends Seeder
                              "1":
                                 {"0":"Não há transmissões ao vivo da maioria das partidas"}
                              }',
-             'order' => 36
+             'order' => 37
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 37
+             'order' => 38
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -556,12 +570,12 @@ class Bookmaker1winReviewSeeder extends Seeder
                 'value_es' => '{"0":"Preguntas Frecuentes"}',
                 'value_fr' => '{"0":"Questions Fréquemment Posées"}',
                 'value_pt' => '{"0":"Perguntas Frequentes"}',
-             'order' => 37
+             'order' => 38
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 38
+             'order' => 39
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -570,12 +584,12 @@ class Bookmaker1winReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Se puede confiar en 1win?"}',
              'value_fr' => '{"0":"Peut-on faire confiance à 1win ?"}',
              'value_pt' => '{"0":"É possível confiar na 1win?"}',
-             'order' => 38
+             'order' => 39
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 39
+             'order' => 40
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -584,12 +598,12 @@ class Bookmaker1winReviewSeeder extends Seeder
              'value_es' => '{"0":"La plataforma ha estado operando durante varios años y cuenta con una gran base de usuarios. En la mayoría de los casos, no hay problemas con los pagos."}',
              'value_fr' => '{"0":"La plateforme fonctionne depuis plusieurs années et possède une grande audience. Dans la plupart des cas, il n\'y a pas de problèmes de paiements."}',
              'value_pt' => '{"0":"A plataforma opera há vários anos e possui uma grande base de usuários. Na maioria dos casos, não há problemas com os pagamentos."}',
-             'order' => 39
+             'order' => 40
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 40
+             'order' => 41
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -598,12 +612,12 @@ class Bookmaker1winReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Es obligatorio pasar la verificación?"}',
              'value_fr' => '{"0":"La vérification est-elle obligatoire ?"}',
              'value_pt' => '{"0":"A verificação é obrigatória?"}',
-             'order' => 40
+             'order' => 41
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 41
+             'order' => 42
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -612,12 +626,12 @@ class Bookmaker1winReviewSeeder extends Seeder
              'value_es' => '{"0":"Para jugar — no, pero la verificación es necesaria para los retiros. La solicitud de documentos generalmente llega después del primer gran retiro."}',
              'value_fr' => '{"0":"Pour jouer — non, mais la vérification est requise pour les retraits. La demande de documents intervient généralement après le premier gros retrait."}',
              'value_pt' => '{"0":"Para jogar — não, mas a verificação é necessária para saques. O pedido de documentos geralmente ocorre após o primeiro grande saque."}',
-             'order' => 41
+             'order' => 42
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 42
+             'order' => 43
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -626,12 +640,12 @@ class Bookmaker1winReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Hay una aplicación móvil?"}',
              'value_fr' => '{"0":"Y a-t-il une application mobile ?"}',
              'value_pt' => '{"0":"Existe um aplicativo móvel?"}',
-             'order' => 42
+             'order' => 43
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '1win',
-             'order' => 43
+             'order' => 44
             ],
             ['key' => '1win',
              'bookmaker_id' => 4,
@@ -640,7 +654,7 @@ class Bookmaker1winReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, hay una aplicación móvil para Android, y para iOS se ofrece una aplicación web."}',
              'value_fr' => '{"0":"Oui, il y a une application mobile pour Android, et une application web est proposée pour iOS."}',
              'value_pt' => '{"0":"Sim, há um aplicativo móvel para Android, e para iOS é oferecido um aplicativo web."}',
-             'order' => 43
+             'order' => 44
             ]
         );
     }

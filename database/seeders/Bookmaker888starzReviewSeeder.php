@@ -421,7 +421,21 @@ class Bookmaker888starzReviewSeeder extends Seeder
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 30
+                'order' => 30
+            ],
+            ['key' => '888starz',
+                'bookmaker_id' => 8,
+                'component' => 'quick_info',
+                'value_en' => '{"0":""}',
+                'value_es' => '{"0":""}',
+                'value_fr' => '{"0":""}',
+                'value_pt' => '{"0":""}',
+                'order' => 30
+            ]
+        );
+        Review::query()->updateOrCreate(
+            ['key' => '888starz',
+             'order' => 31
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -430,12 +444,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
                 'value_es' => '{"0":"Soporte"}',
                 'value_fr' => '{"0":"Assistance"}',
                 'value_pt' => '{"0":"Suporte"}',
-             'order' => 30
+             'order' => 31
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 31
+             'order' => 32
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -444,12 +458,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":"El servicio de atención al cliente de 888starz funciona las 24 horas, lo cual es importante para los jugadores de diferentes zonas horarias. Se puede contactar a través del chat en línea, correo electrónico o un formulario especial en el sitio web."}',
              'value_fr' => '{"0":"Le service client de 888starz est disponible 24h/24 et 7j/7, ce qui est important pour les joueurs de différents fuseaux horaires. Vous pouvez les contacter via le chat en ligne, par e-mail ou via un formulaire spécial sur le site."}',
              'value_pt' => '{"0":"O suporte ao cliente da 888starz funciona 24 horas por dia, o que é importante para jogadores de diferentes fusos horários. É possível entrar em contato através do chat online, e-mail ou um formulário especial no site."}',
-             'order' => 31
+             'order' => 32
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 32
+             'order' => 33
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -458,12 +472,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":""}',
              'value_fr' => '{"0":""}',
              'value_pt' => '{"0":""}',
-             'order' => 32
+             'order' => 33
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 33
+             'order' => 34
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -508,12 +522,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
                                 {"0":"Odds nem sempre altas",
                                  "1":"O suporte às vezes pode ser lento"}
                              }',
-             'order' => 33
+             'order' => 34
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 34
+             'order' => 35
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -522,12 +536,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
                 'value_es' => '{"0":"Preguntas Frecuentes"}',
                 'value_fr' => '{"0":"Questions Fréquemment Posées"}',
                 'value_pt' => '{"0":"Perguntas Frequentes"}',
-             'order' => 34
+             'order' => 35
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 35
+             'order' => 36
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -536,12 +550,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Se pueden hacer apuestas desde el teléfono?"}',
              'value_fr' => '{"0":"Est-il possible de parier depuis un téléphone ?"}',
              'value_pt' => '{"0":"É possível fazer apostas pelo telefone?"}',
-             'order' => 35
+             'order' => 36
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 36
+             'order' => 37
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -550,12 +564,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, el sitio tiene una versión móvil adaptable, conveniente para usar en smartphones y tabletas, además de aplicaciones móviles para iOS y Android."}',
              'value_fr' => '{"0":"Oui, le site dispose d\'une version mobile réactive, pratique pour les smartphones et tablettes, ainsi que d\'applications mobiles pour iOS et Android."}',
              'value_pt' => '{"0":"Sim, o site possui uma versão móvel responsiva, conveniente para uso em smartphones e tablets, além de aplicativos móveis para iOS e Android."}',
-             'order' => 36
+             'order' => 37
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 37
+             'order' => 38
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -564,12 +578,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Cuánto tiempo tarda en retirarse el dinero?"}',
              'value_fr' => '{"0":"Combien de temps prend le retrait des fonds ?"}',
              'value_pt' => '{"0":"Quanto tempo leva para retirar fundos?"}',
-             'order' => 37
+             'order' => 38
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 38
+             'order' => 39
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -578,12 +592,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":"Dependiendo del método y del monto, los retiros pueden tardar desde unos minutos hasta 24 horas."}',
              'value_fr' => '{"0":"Selon la méthode et le montant, les retraits peuvent prendre de quelques minutes à 24 heures."}',
              'value_pt' => '{"0":"Dependendo do método e do valor, os saques podem levar de alguns minutos até 24 horas."}',
-             'order' => 38
+             'order' => 39
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 39
+             'order' => 40
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -592,12 +606,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":"¿Es seguro usar el sitio?"}',
              'value_fr' => '{"0":"Est-il sûr d’utiliser le site ?"}',
              'value_pt' => '{"0":"É seguro usar o site?"}',
-             'order' => 39
+             'order' => 40
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 40
+             'order' => 41
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -606,12 +620,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, el sitio utiliza tecnologías modernas de protección de datos y cuenta con licencia de Curazao."}',
              'value_fr' => '{"0":"Oui, le site utilise des technologies modernes de protection des données et possède une licence de Curaçao."}',
              'value_pt' => '{"0":"Sim, o site utiliza tecnologias modernas de proteção de dados e possui licença de Curaçao."}',
-             'order' => 40
+             'order' => 41
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 41
+             'order' => 42
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -620,12 +634,12 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":"¿El bookmaker admite criptomonedas?"}',
              'value_fr' => '{"0":"Le bookmaker prend-il en charge les cryptomonnaies ?"}',
              'value_pt' => '{"0":"O bookmaker aceita criptomoedas?"}',
-             'order' => 41
+             'order' => 42
             ]
         );
         Review::query()->updateOrCreate(
             ['key' => '888starz',
-             'order' => 42
+             'order' => 43
             ],
             ['key' => '888starz',
              'bookmaker_id' => 8,
@@ -634,7 +648,7 @@ class Bookmaker888starzReviewSeeder extends Seeder
              'value_es' => '{"0":"Sí, 888starz permite depósitos y retiros en criptomonedas populares."}',
              'value_fr' => '{"0":"Oui, 888starz permet les dépôts et retraits en cryptomonnaies populaires."}',
              'value_pt' => '{"0":"Sim, a 888starz permite depósitos e saques em criptomoedas populares."}',
-             'order' => 42
+             'order' => 43
             ]
         );
     }
