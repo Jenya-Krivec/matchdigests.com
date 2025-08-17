@@ -124,13 +124,13 @@ class Components
                         $insertArray[$order]['value_'.$lang] = json_encode($v, JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE | JSON_FORCE_OBJECT);
                     }
                 }
-                if (in_array($componentName, ['table_v3', 'list'])) {
+                if (in_array($componentName, ['table_v3', 'list', 'quick_info'])) {
                     $insertArray[$order]['value_en'] = json_encode(["0" => ""], JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE | JSON_FORCE_OBJECT);
                     $insertArray[$order]['value_es'] = json_encode(["0" => ""], JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE | JSON_FORCE_OBJECT);
                     $insertArray[$order]['value_fr'] = json_encode(["0" => ""], JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE | JSON_FORCE_OBJECT);
                     $insertArray[$order]['value_pt'] = json_encode(["0" => ""], JSON_HEX_TAG | JSON_HEX_APOS | JSON_HEX_QUOT | JSON_HEX_AMP | JSON_UNESCAPED_UNICODE | JSON_FORCE_OBJECT);
                 }
-                if ($array || in_array( $componentName, ['support', 'table_v3', 'list'])) {
+                if ($array || in_array( $componentName, ['support', 'table_v3', 'list', 'quick_info'])) {
                     $insertArray[$order]['key'] = $key;
                     $insertArray[$order]['bookmaker_id'] = $bookmakerID;
                     $insertArray[$order]['component'] = $componentName;
@@ -317,7 +317,7 @@ class Components
             if (str_contains($k, '-h2-')||str_contains($k, '-h3-')||str_contains($k, '-p-')||str_contains($k, '-table_v1-')||str_contains($k, '-table_v2-')||str_contains($k, '-support-')||str_contains($k, '-list_v2-')) {
                 $rules[$k] = 'string|nullable';
             }
-            if (str_contains($k, '-table_v3-')||str_contains($k, '-list-')) {
+            if (str_contains($k, '-table_v3-')||str_contains($k, '-list-')||str_contains($k, '-quick_info-')) {
                 $rules[$k] = 'int';
             }
             if (str_contains($k, '-imgpayment') || str_contains($k, '-imgsport')) {

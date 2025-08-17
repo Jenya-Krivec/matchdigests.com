@@ -20,7 +20,7 @@
         <div class="animate-spin rounded-full h-5 w-5 border-b-2 border-yellow-400"></div>
     </div>
 </div>
-<header class="bg-white shadow-sm fixed w-full z-20 border-b-2 border-yellow-400">
+<header class="bg-white shadow-sm fixed w-full z-20 border-b-2 border-yellow-400 z-30">
     <nav class="flex items-center py-5 w-full">
         <a href="{{route('index')}}" class="mx-10">
             <img src="{{asset('img/logo/logo.png').'?v='.filemtime('img/logo/logo.png')}}" alt="MATCHDIGESTS" class="w-12 logo" width="260" height="100">

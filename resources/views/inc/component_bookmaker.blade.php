@@ -1,7 +1,7 @@
 <div class="flex justify-between flex-col relative rounded-md p-2 mb-2 shiny-box @if($bookmaker['isLight']) text-black @else text-white @endif"
      style="background: linear-gradient(87deg, {{$bookmaker['logo_color']}} 0%, color-mix(in oklab, {{$bookmaker['logo_color']}}, white 20%) 100%)">
     @if($authorized)
-    <a href="{{route('admin.editBookmaker', $bookmaker['key'])}}" title="edit" class="absolute bottom-0 right-0 text-xs bg-gray-300 rounded-br-md rounded-tl-md w-5 h-5 flex justify-center items-center">&#x270F;</a>
+    <a href="{{route('admin.editBookmaker', $bookmaker['key'])}}" title="edit" class="absolute z-20 bottom-0 right-0 text-xs bg-gray-300 rounded-br-md rounded-tl-md w-5 h-5 flex justify-center items-center">&#x270F;</a>
     @endif
     <div class="flex justify-between mb-4">
         <div class="flex justify-center items-center">

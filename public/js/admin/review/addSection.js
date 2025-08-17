@@ -123,6 +123,9 @@ class AddSection {
             case 'Comparison':
                 new Comparison().add(id);
                 break;
+            case 'Info':
+                new Info().add(id);
+                break;
         }
         this.hide();
     }
